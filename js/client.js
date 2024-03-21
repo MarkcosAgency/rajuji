@@ -10,6 +10,7 @@ const clients = [
 	{ name: "LG", photo: "./img/clients/LG.png" },
 	{ name: "Shyam Steel", photo: "./img/clients/Shyam_steel.png" },
 	{ name: "Star Cement", photo: "./img/clients/Star-Cement.png" },
+	{ name: "Indian Oil", photo: "./img/clients/Indian_oil.png"},
 	// Add more clients as needed
 ];
 

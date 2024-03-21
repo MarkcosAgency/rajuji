@@ -17,7 +17,6 @@
 }
 
 .snaks-banner {
-	/* width: 100%; */
 	width: 100%;
 	height: 100dvh;
 	background-image: url("../img/banners/Snacks_banner_web.jpg");
@@ -49,6 +48,23 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.seasonal-banner {
+    width: 100%;
+    height: 100dvh;
+    background-image: url("../img/banners/Exclusive_banner_web.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bakery-banner {
+    width: 100%;
+    height: 100dvh;
+    background-image: url("../img/banners/Banner_pastry.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 480px) {
 	.snaks-banner {
 		width: 100%;
@@ -58,10 +74,26 @@
 		background-size: contain;
 		background-repeat: no-repeat;
 	}
+	.bakery-banner {
+		width: 100%;
+		height: 50dvh;
+		background-image: url("../img/banners/Banner_pastry_sq.jpg");
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.seasonal-banner {
+		width: 100%;
+		height: 50dvh;
+		background-image: url("../img/banners/Exclusive_banner_mob.jpg");
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
 	.cookies-banner {
 		width: 100%;
-		height: 50vh;
-		background-image: url("../img/banners/Cookie_banner_mob.jpg");
+		height: 50dvh;
+		background-image: url("../img/banners/Cookie_banner_web.jpg");
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -82,6 +114,7 @@
 		background-size: contain;
 		background-repeat: no-repeat;
 	}
+	
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -110,12 +143,28 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+	.seasonal-banner {
+		width: 100%;
+		height: 83dvh;
+		background-image: url("../img/banners/Exclusive_banner_web.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 	.namkeens-banner {
 		width: 100%;
 		height: 83dvh;
 		background-image: url("../img/banners/Namkeen_Banner_web.jpg");
 		background-position: center;
 		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.bakery-banner {
+		width: 100%;
+		height: 83dvh;
+		background-image: url("../img/banners/Banner_pastry.jpg");
+		background-position: center;
+		background-size: contain;
 		background-repeat: no-repeat;
 	}
 }

@@ -6,7 +6,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['message'];
     
     // Recipient email
-    $to = 'sablepradipsubhash@gmail.com';
+    $to = 'sablepradipsubhash@gmail.com
+    ';
+    // $to = 'bijayghosh.email@gmail.com';
+
     
     // Subject
     $subject = 'Message from Contact Form';
@@ -20,6 +23,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Send email
     if (mail($to, $subject, $message_body, $headers)) {
         echo '<div class="alert alert-success" role="alert">Your message has been sent successfully.</div>';
+        // Redirect to index.html after successful submission
+        header('Location: index.html');
+        exit; // Stop further execution
     } else {
         echo '<div class="alert alert-danger" role="alert">Sorry, there was an error sending your message.</div>';
     }

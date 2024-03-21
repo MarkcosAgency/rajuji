@@ -1,6 +1,6 @@
 // Sample data for products
 // for  sweets
-const sweetProducts = [
+const cookieProducts = [
 	{
 		name: "Product 1",
 		photo: "./img/Rajuji Products/10.png",
@@ -35,7 +35,7 @@ function createProductCard(product) {
     <div class="rounded sweets-card">
         <div class="">
             <img src="${product.photo}"
-                class="img-fluid w-100 rounded-top" alt=${product.name />
+                class="img-fluid w-100 rounded-top" alt=${product.name} />
         </div>
 
         <div
@@ -63,9 +63,9 @@ function renderProducts(products, productRowId) {
 }
 
 // Render initial set of product cards
-renderProducts(sweetProducts, "cookiesProductsRow");
+renderProducts(cookieProducts, "cookiesProductsRow");
 
 // You may also want to re-render the product cards on window resize event to adjust the number of cards displayed based on screen size.
 window.addEventListener("resize", function () {
-	renderProducts(sweetProducts, "cookiesProductsRow");
+	renderProducts(cookieProducts, "cookiesProductsRow");
 });

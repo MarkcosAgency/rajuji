@@ -3,11 +3,12 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1921 1080" style="enable-background:new 0 0 1921 1080;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill:#808285;}
-	.st3{opacity:0.1;fill:url(#SVGID_1_);}
-</style>
+
+	.st0{fill: #ffa500}
+	.st1{fill:#313e6e;}
+	.st2{fill:#FFFFFF;}
+	.st3{opacity:0.2; fill:url(#SVGID_1_); }
+</style> 
 <pattern  y="1080" width="172.8" height="96.1" patternUnits="userSpaceOnUse" id="New_Pattern_Swatch_1" viewBox="0 -96.1 172.8 96.1" style="overflow:visible;">
 	<g>
 		<rect y="-96.1" class="st0" width="172.8" height="96.1"/>

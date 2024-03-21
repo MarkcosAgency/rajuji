@@ -1,5 +1,5 @@
 // Sample data for namkeen products
-const namkeenProducts = [
+const seasonalProducts = [
 	{
 		name: "BHUJIA 1KG",
 		photo: "./img/Rajuji Products/10.png",
@@ -151,19 +151,17 @@ function createProductCard(product) {
 // Function to render product cards
 function renderProducts(products, productRowId) {
 	const ProductsRow = document.getElementById(productRowId);
-	ProductsRow.innerHTML = ""; // Clear previous content
+	ProductsRow.innerHTML = ""; 
 
 	// Render product cards
 	products.forEach((product) => {
-		const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
-		ProductsRow.insertAdjacentHTML("beforeend", cardHTML); // Insert the card HTML into the productsRow element
+		const cardHTML = createProductCard(product); 
+		ProductsRow.insertAdjacentHTML("beforeend", cardHTML); 
 	});
 }
 
-// Render initial set of product cards
-renderProducts(namkeenProducts, "namkeensProductsRow");
+renderProducts(seasonalProducts, "seasonalProductsRow");
 
-// You may also want to re-render the product cards on window resize event to adjust the number of cards displayed based on screen size.
 window.addEventListener("resize", function () {
-	renderProducts(namkeenProducts, "namkeensProductsRow");
+	renderProducts(seasonalProducts, "seasonalProductsRow");
 });
