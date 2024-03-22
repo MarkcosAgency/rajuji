@@ -3,27 +3,27 @@
 const sweetProducts = [
 	{
 		name: "LACHHA 500 GM",
-		photo: "./img/Rajuji Products/10.png",
+		photo: "./img/Rajuji Products/8.png",
 		description: "Description of Product 1",
 	},
 	{
 		name: "ANGURI PETHA 1KG",
-		photo: "./img/Rajuji Products/10.png",
+		photo: "./img/Rajuji Products/9.png",
 		description: "Description of Product 1",
 	},
 	{
 		name: "ANGURI PETHA 500 GM",
-		photo: "./img/Rajuji Products/11.png",
+		photo: "./img/Rajuji Products/10.png",
 		description: "Description of Product 2",
 	},
 	{
 		name: "BESAN LADDU 170 GM",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "./img/Rajuji Products/11.png",
 		description: "Description of Product 3",
 	},
 	{
 		name: "BESAN LADDU 300 GMS",
-		photo: "./img/Rajuji Products/13.png",
+		photo: "./img/Rajuji Products/12.png",
 		description: "Description of Product 4",
 	},
 	{
@@ -32,39 +32,56 @@ const sweetProducts = [
 		description: "Description of Product 4",
 	},{
 		name: "GULAB JAMUN 500 GM TIN",
-		photo: "./img/Rajuji Products/13.png",
+		photo: "./img/Rajuji Products/14.png",
 		description: "Description of Product 4",
 	},{
 		name: "RAJ BHOG TINA 1KG",
-		photo: "./img/Rajuji Products/13.png",
+		photo: "./img/Rajuji Products/15.png",
 		description: "Description of Product 4",
 	},{
 		name: "ROSOGOLLA 1KG TIN",
-		photo: "./img/Rajuji Products/13.png",
+		photo: "./img/Rajuji Products/16.png",
 		description: "Description of Product 4",
 	},{
 		name: "RASOGOLLA 500 GM TIN",
-		photo: "./img/Rajuji Products/13.png",
+		photo: "./img/Rajuji Products/17.png",
 		description: "Description of Product 4",
 	},{
 		name: "SOAN PAPDI ELAICHI 100 GM",
-		photo: "./img/Rajuji Products/13.png",
+		photo: "./img/Rajuji Products/18.png",
 		description: "Description of Product 4",
 	},{
 		name: "SOAN PAPDI ELACHI 200 GM",
-		photo: "./img/Rajuji Products/13.png",
+		photo: "./img/Rajuji Products/19.png",
 		description: "Description of Product 4",
 	},
 	{
 		name: "SOAN PAPDI ELAICHI 500 GM",
-		photo: "./img/Rajuji Products/13.png",
+		photo: "./img/Rajuji Products/20.png",
+		description: "Description of Product 4",
+	},
+	{
+		name: "SOAN PAPDI ELAICHI 500 GM",
+		photo: "./img/Rajuji Products/21.png",
+		description: "Description of Product 4",
+	},{
+		name: "SOAN PAPDI ELAICHI 500 GM",
+		photo: "./img/Rajuji Products/22.png",
+		description: "Description of Product 4",
+	},{
+		name: "SOAN PAPDI ELAICHI 500 GM",
+		photo: "./img/Rajuji Products/23.png",
+		description: "Description of Product 4",
+	},{
+		name: "SOAN PAPDI ELAICHI 500 GM",
+		photo: "./img/Rajuji Products/24.png",
 		description: "Description of Product 4",
 	},
 ];
 
 // Function to dynamically create product cards
 function createProductCard(product) {
-	return `
+	return (`
     <div class="col-md-6 col-lg-4 col-xl-3">
     <div class="rounded sweets-card">
         <div class="">
@@ -81,7 +98,7 @@ function createProductCard(product) {
         </div>
     </div>
 </div>
-        `;
+        `);
 }
 
 // Function to render product cards

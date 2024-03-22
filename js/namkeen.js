@@ -2,126 +2,73 @@
 const namkeenProducts = [
 	{
 		name: "BHUJIA 1KG",
-		photo: "./img/Rajuji Products/10.png",
+		photo: "./img/namkeen/2-2-500x500.jpg",
 		description: "Description of Product 1",
 	},
 	{
 		name: "BHUJIA 300 GM",
-		photo: "./img/Rajuji Products/10.png",
+		photo: "./img/namkeen/3-1.jpg",
 		description: "Description of Product 1",
 	},
 	{
 		name: "BHUJIA 400 GM ALL",
-		photo: "./img/Rajuji Products/11.png",
+		photo: "./img/namkeen/IMG_0353.jpg",
 		description: "Description of Product 2",
 	},
 	{
 		name: "IN ONE 1KG",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "./img/namkeen/IMG_0360.jpg",
 		description: "Description of Product 3",
 	},
 	
 	{
 		name: "ALL IN ONE 200 GM ALU",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "./img/namkeen/IMG_0365.jpg",
 		description: "Description of Product 3",
 	},
 	{
 		name: "IN ONE 400 GM ALU",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "./img/namkeen/IMG_0367.jpg",
 		description: "Description of Product 3",
 	},
 	{
 		name: "BHUJIA 200 GM ALU",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "./img/namkeen/IMG_0372.jpg",
 		description: "Description of Product 3",
 	},
 	{
 		name: "BHUJIA 400 GM",
-		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
+		photo: "./img/namkeen/IMG_0397.jpg",
+		description: "img/namkeen/IMG_0398.jpg",
 	},
 	{
 		name: "CORNFLAKES MIXTURE 250 GM",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "./img/namkeen/IMG_0398.jpg",
 		description: "Description of Product 3",
 	},
 	{
 		name: "CORNFLAKES MIXTURE 500 GM",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "./img/namkeen/IMG_0399.jpg",
 		description: "Description of Product 3",
 	},
 	{
 		name: "JAWA NAMKIN 300 GM",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "./img/namkeen/IMG_0400.jpg",
 		description: "Description of Product 3",
 	},
 	{
 		name: "JHAL CHANACHUR 200 GM",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "./img/namkeen/IMG_0401.jpg",
 		description: "Description of Product 3",
 	},
 	{
 		name: "JHAL CHANACHUR 400 GM",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "./img/namkeen/IMG_0402.jpg",
 		description: "Description of Product 3",
 	},
 	{
 		name: "JHAL CHANACHUR 1KG",
-		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
-	},
-	{
-		name: "KHAST MIX 1KG",
-		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
-	},
-	{
-		name: "KHAST MIX 200GM",
-		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
-	},
-	{
-		name: "KHAST MIX 400GM",
-		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
-	},
-	{
-		name: "TOK JHAL MISTI 1KG",
-		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
-	},
-	{
-		name: "TOK JHAL MISTI 200GM TOK",
-		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
-	},{
-		name: "JHAL MISTI 400GM",
-		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
-	},{
-		name: "MOONG DAL 200 GM",
-		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
-	},{
-		name: "MOONG DAL 500 GM",
-		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
-	},{
-		name: "METHAI SWALI 300 GM",
-		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
-	},{
-		name: "SWALI 300 GM",
-		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
-	},{
-		name: "MINI KACHORI 300 GM",
-		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
-	},{
-		name: "MINI SINGHARA 300 GM",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "./img/namkeen/IMG_0403.jpg",
 		description: "Description of Product 3",
 	},
 ];
