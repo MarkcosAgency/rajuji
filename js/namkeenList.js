@@ -1,5 +1,5 @@
 // Sample data for namkeen products
-const namkeenProducts = [
+const namkeenProductsList = [
   {
     name: "BHUJIA",
     photo: "./img/namkeen/2-2-500x500.jpg",
@@ -118,62 +118,34 @@ const namkeenProducts = [
   },
 ];
 
-// Function to dynamically create product cards
-function createProductCard(product) {
-  return `
-    <div class="col-md-6 col-lg-4 col-xl-3">
-    <div class="rounded sweets-card">
-			<div class="">
-				<img src="${product.photo}"
-					class="img-fluid w-100 rounded-top" alt=${product.name} />
-			</div>
-
-			<div
-				class="p-4 border text-dark .text-montserrat text-start border-top-0">
-				<h4>${product.name}</h4>
-				<p class=" text-cocon m-0">
-					${product.description}
-				</p>
-			</div>
-    </div>
-	</div>
-        `;
-}
-
 function createListCard(product) {
   return `
-	  <div class="col-md-6 col-lg-4 col-xl-3">
-	  <div class="rounded sweets-card">
-			 
-			  <div
-				class="p-4 border text-dark .text-montserrat text-start border-top-0">
-				<h4>${product.name}</h4>
-				<p class=" text-cocon m-0">
-					${product.description}
-				</p>
-			</div>
-	  </div>
-	  </div>
-		  `;
+  <li class="">${product.name}</li>
+            `;
 }
 
 // Function to render product cards
 function renderProducts(products, productRowId) {
   const ProductsRow = document.getElementById(productRowId);
+  const ListRow = document.getElementById("namkeensListsRow");
   ProductsRow.innerHTML = ""; // Clear previous content
+  ListRow.innerHTML = "";
+  const lists = document.createElement("ul");
+  let str;
+
   // Render product cards
   products.forEach((product) => {
-    if (product.photo !== "") {
-      const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
+    if (product.photo == "") {
+      const cardHTML = createListCard(product); // Call the createProductCard function and pass the product object as an argument
       ProductsRow.insertAdjacentHTML("beforeend", cardHTML);
     }
   });
 }
 
 // Render initial set of product cards
-renderProducts(namkeenProducts, "namkeensProductsRow");
+renderProducts(namkeenProductsList, "namkeensListsRow");
 
 // You may also want to re-render the product cards on window resize event to adjust the number of cards displayed based on screen size.
 window.addEventListener("resize", function () {
-  renderProducts(namkeenProducts, "namkeensProductsRow");
+  renderProducts(namkeenProductsList, "namkeensListsRow");
 });
