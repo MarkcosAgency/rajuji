@@ -1,73 +1,110 @@
 // Sample data for namkeen products
 const namkeenProducts = [
 	{
-		name: "BHUJIA 1KG",
+		name: "BHUJIA",
 		photo: "./img/namkeen/2-2-500x500.jpg",
 		description: "Description of Product 1",
 	},
 	{
-		name: "BHUJIA 300 GM",
+		name: "JHAL CHANACHUR",
 		photo: "./img/namkeen/3-1.jpg",
 		description: "Description of Product 1",
 	},
 	{
-		name: "BHUJIA 400 GM ALL",
+		name: "KHATTA MITHA",
 		photo: "./img/namkeen/IMG_0353.jpg",
 		description: "Description of Product 2",
 	},
 	{
-		name: "IN ONE 1KG",
+		name: "KHASTA CHANACHUR",
 		photo: "./img/namkeen/IMG_0360.jpg",
 		description: "Description of Product 3",
 	},
 	
 	{
-		name: "ALL IN ONE 200 GM ALU",
+		name: "MOONG DAL",
 		photo: "./img/namkeen/IMG_0365.jpg",
 		description: "Description of Product 3",
 	},
 	{
-		name: "IN ONE 400 GM ALU",
+		name: "CORNFLAKS MIXTURE",
 		photo: "./img/namkeen/IMG_0367.jpg",
 		description: "Description of Product 3",
 	},
 	{
-		name: "BHUJIA 200 GM ALU",
+		name: "PANCHRATAN",
 		photo: "./img/namkeen/IMG_0372.jpg",
 		description: "Description of Product 3",
 	},
 	{
-		name: "BHUJIA 400 GM",
+		name: "KAJU DALMOTH",
 		photo: "./img/namkeen/IMG_0397.jpg",
-		description: "img/namkeen/IMG_0398.jpg",
+		description: "Description of Product 3",
 	},
 	{
-		name: "CORNFLAKES MIXTURE 250 GM",
+		name: "BADAM DALMOTH",
 		photo: "./img/namkeen/IMG_0398.jpg",
 		description: "Description of Product 3",
 	},
 	{
-		name: "CORNFLAKES MIXTURE 500 GM",
+		name: "SADA CHIPS",
 		photo: "./img/namkeen/IMG_0399.jpg",
 		description: "Description of Product 3",
 	},
 	{
-		name: "JAWA NAMKIN 300 GM",
+		name: "CHILI POTATO CHIPS",
 		photo: "./img/namkeen/IMG_0400.jpg",
 		description: "Description of Product 3",
 	},
 	{
-		name: "JHAL CHANACHUR 200 GM",
+		name: "KABLI MIX",
 		photo: "./img/namkeen/IMG_0401.jpg",
 		description: "Description of Product 3",
 	},
 	{
-		name: "JHAL CHANACHUR 400 GM",
+		name: "DRYFRUIT DALMOTH",
 		photo: "./img/namkeen/IMG_0402.jpg",
 		description: "Description of Product 3",
 	},
 	{
-		name: "JHAL CHANACHUR 1KG",
+		name: "SAHI DALMOTH",
+		photo: "./img/namkeen/IMG_0403.jpg",
+		description: "Description of Product 3",
+	},{
+		name: "AMIR CHANACHUR",
+		photo: "./img/namkeen/IMG_0403.jpg",
+		description: "Description of Product 3",
+	},{
+		name: "TOK JHAL MISTI",
+		photo: "./img/namkeen/IMG_0403.jpg",
+		description: "Description of Product 3",
+	},{
+		name: "ALL IN ONE",
+		photo: "./img/namkeen/IMG_0403.jpg",
+		description: "Description of Product 3",
+	},{
+		name: "MARWARI BHUJIA",
+		photo: "./img/namkeen/IMG_0403.jpg",
+		description: "Description of Product 3",
+	},{
+		name: "PAPDI BESAN",
+		photo: "./img/namkeen/IMG_0403.jpg",
+		description: "Description of Product 3",
+	},{
+		name: "BHAVNAGRI",
+		photo: "./img/namkeen/IMG_0403.jpg",
+		description: "Description of Product 3",
+	},{
+		name: "GANTHIA",
+		photo: "./img/namkeen/IMG_0403.jpg",
+		description: "Description of Product 3",
+	},
+	{
+		name: "MASALA MURI",
+		photo: "./img/namkeen/IMG_0403.jpg",
+		description: "Description of Product 3",
+	},{
+		name: "KHOKA BHUJIA",
 		photo: "./img/namkeen/IMG_0403.jpg",
 		description: "Description of Product 3",
 	},

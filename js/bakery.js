@@ -1,64 +1,106 @@
 // Sample data for bakery products
-const bakeryProducts = [
+// const bakeryProducts = [
+//     {
+//         name: "Bread 1KG",
+//         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
+//         description: "Description of Bread 1KG",
+//     },
+//     {
+//         name: "Cake 500 GM",
+//         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
+//         description: "Description of Cake 500 GM",
+//     },
+//     {
+//         name: "Cookies 400 GM",
+//         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
+//         description: "Description of Cookies 400 GM",
+//     },
+//     {
+//         name: "Bread 1KG",
+//         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
+//         description: "Description of Bread 1KG",
+//     },
+//     {
+//         name: "Cake 500 GM",
+//         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
+//         description: "Description of Cake 500 GM",
+//     },
+//     {
+//         name: "Cookies 400 GM",
+//         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
+//         description: "Description of Cookies 400 GM",
+//     }, {
+//         name: "Bread 1KG",
+//         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
+//         description: "Description of Bread 1KG",
+//     },
+//     {
+//         name: "Cake 500 GM",
+//         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
+//         description: "Description of Cake 500 GM",
+//     },
+//     {
+//         name: "Cookies 400 GM",
+//         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
+//         description: "Description of Cookies 400 GM",
+//     }, {
+//         name: "Bread 1KG",
+//         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
+//         description: "Description of Bread 1KG",
+//     },
+//     {
+//         name: "Cake 500 GM",
+//         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
+//         description: "Description of Cake 500 GM",
+//     },
+//     {
+//         name: "Cookies 400 GM",
+//         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
+//         description: "Description of Cookies 400 GM",
+//     },
+//     // Add more bakery products as needed
+// ];
+
+const bakeryCookies = [
     {
-        name: "Bread 1KG",
+        name: "JEERA TWIST KHARI",
         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
         description: "Description of Bread 1KG",
     },
     {
-        name: "Cake 500 GM",
+        name: "KAJU PISTA BITE",
         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
         description: "Description of Cake 500 GM",
     },
     {
-        name: "Cookies 400 GM",
+        name: "ATTA BISCUIT",
         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
         description: "Description of Cookies 400 GM",
     },
     {
-        name: "Bread 1KG",
+        name: "FRUIT BITE",
         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
         description: "Description of Bread 1KG",
     },
     {
-        name: "Cake 500 GM",
+        name: "BADAM BAITE",
         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
         description: "Description of Cake 500 GM",
     },
     {
-        name: "Cookies 400 GM",
+        name: "CHOCO BITE",
         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
         description: "Description of Cookies 400 GM",
     }, {
-        name: "Bread 1KG",
+        name: "AJWAINE BITE",
         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
         description: "Description of Bread 1KG",
     },
     {
-        name: "Cake 500 GM",
+        name: "ALMOND STICK",
         photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
         description: "Description of Cake 500 GM",
-    },
-    {
-        name: "Cookies 400 GM",
-        photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
-        description: "Description of Cookies 400 GM",
-    }, {
-        name: "Bread 1KG",
-        photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
-        description: "Description of Bread 1KG",
-    },
-    {
-        name: "Cake 500 GM",
-        photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
-        description: "Description of Cake 500 GM",
-    },
-    {
-        name: "Cookies 400 GM",
-        photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
-        description: "Description of Cookies 400 GM",
-    },
-    // Add more bakery products as needed
+    }
 ];
 
 // Function to dynamically create product cards
@@ -91,9 +133,9 @@ function renderProducts(products, productRowId) {
 }
 
 // Render initial set of product cards
-renderProducts(bakeryProducts, "bakeryProductsRow");
+renderProducts(bakeryCookies, "bakeryProductsRow");
 
 // Re-render product cards on window resize event to adjust the number of cards displayed based on screen size
 window.addEventListener("resize", function () {
-    renderProducts(bakeryProducts, "bakeryProductsRow");
+    renderProducts(bakeryCookies, "bakeryProductsRow");
 });

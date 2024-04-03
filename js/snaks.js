@@ -2,27 +2,32 @@
 // for  sweets
 const sweetProducts = [
 	{
-		name: "Product 1",
+		name: "SINGHARA BIKANERI",
 		photo: "./img/Rajuji Products/10.png",
 		description: "Description of Product 1",
 	},
 	{
-		name: "Product 1",
+		name: "KHASTA KACHORI",
 		photo: "./img/Rajuji Products/10.png",
 		description: "Description of Product 1",
 	},
 	{
-		name: "Product 2",
+		name: "CUTLET",
 		photo: "./img/Rajuji Products/11.png",
 		description: "Description of Product 2",
 	},
 	{
-		name: "Product 3",
+		name: "DHOKLA",
 		photo: "./img/Rajuji Products/12.png",
 		description: "Description of Product 3",
 	},
 	{
-		name: "Product 4",
+		name: "VEG PATTIES",
+		photo: "./img/Rajuji Products/13.png",
+		description: "Description of Product 4",
+	},
+	{
+		name: "KHANDVI",
 		photo: "./img/Rajuji Products/13.png",
 		description: "Description of Product 4",
 	},
@@ -42,7 +47,7 @@ function createProductCard(product) {
             class="p-4 border text-dark .text-montserrat text-start border-top-0">
             <h4>${product.name}</h4>
             <p class=" text-cocon m-0">
-                ${product.description}
+              Description of  ${product.name}
             </p>
         </div>
     </div>
