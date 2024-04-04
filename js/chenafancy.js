@@ -30,7 +30,7 @@ const chenaFancySweetProducts = [
   {
     name: "CHAM CHAM FRUIT MALAI ",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description: " Malai cham cham is a delicious indian sweet. These milk-based sweets are typically flavored with cardamom and adorned with a layer of malai.",
   },
   {
     name: "ABARKHABO",
@@ -40,7 +40,7 @@ const chenaFancySweetProducts = [
   {
     name: "CHAM CHAM KESAR",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description: "Is a delicious indian sweet that is a variation of the traditional cham cham.these treats are known for their vibrant color, aromatic saffron flavor, and a delightful texture.",
   },
   {
     name: "COCONUT MALAI CUP",
@@ -50,7 +50,7 @@ const chenaFancySweetProducts = [
   {
     name: "RABRI MALPUA",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description: "Is a delicious indian dessert that combines two popular sweets: rabri and malpua.the malpua pancakes are served with a generous topping of rabri, creating a delightful combination of textures and flavors.",
   },
   {
     name: "PARWAL",
@@ -60,7 +60,7 @@ const chenaFancySweetProducts = [
   {
     name: "RASMALAI",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description: "A soft and delicate spongy rosgolla dipped in thickened kesar pista milk.",
   },
   {
     name: "CHENA PAYESH",
@@ -75,12 +75,12 @@ const chenaFancySweetProducts = [
   {
     name: "KESARIA JELEBI",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description: "Jalebi soaked in delectable sugar syrup- perfect to satiate your cravings.",
   },
   {
     name: "IMERTI",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description: "Is a classic and indulgent indian sweet that combines the iconic spiral shape of jalebi with the rich and aromatic flavor of desi ghee. Served in a circular arrangement,. Dipped in flavour syrup.",
   },
 ];
 

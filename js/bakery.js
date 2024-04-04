@@ -81,27 +81,30 @@ const bakeryCookies = [
   {
     name: "FRUIT BITE",
     photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
-    description: "Description of Bread 1KG",
+    description:
+      "Small, bite-sized snacks made with a variety of dried fruits.",
   },
   {
     name: "BADAM BAITE",
     photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
-    description: "Description of Cake 500 GM",
+    description:
+      "Known for its rich and nutty flavor. It is enjoyed as a dessert or snack.",
   },
   {
     name: "CHOCO BITE",
     photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
-    description: "Description of Cookies 400 GM",
+    description: "Small, bite-sized treats made primarily with chocolate.",
   },
   {
     name: "AJWAINE BITE",
     photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
-    description: "Description of Bread 1KG",
+    description:
+      "A flavorful & aromatic snack featuring the distinctive taste of ajwain.",
   },
   {
     name: "ALMOND STICK",
     photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
-    description: "Description of Cake 500 GM",
+    description: "A delectable treat showcasing the natural goodness & nutty flavor of almonds in a slender & convenient form.",
   },
 ];
 

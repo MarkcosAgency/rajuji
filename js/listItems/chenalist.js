@@ -61,7 +61,7 @@ const chenaSweetProductsList = [
   {
     name: "MATHURA PEDA",
     photo: "",
-    description: "Description of Product 1",
+    description: " Is a traditional indian sweet that originated in the city of mathura. Made from milk with lot of patience.",
   },
 ];
 

@@ -15,17 +15,19 @@ const gheeSweetProducts = [
   {
     name: "LADDU KESARIA",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description: "Kesaria laddoo made out of love.",
   },
   {
     name: "LADDU DESHI",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description:
+      " Also known as motichoor laddu, is a popular indian sweet. Made with pure desi ghee.",
   },
   {
     name: "LADDU KANPURI",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description:
+      "A delectable traditional sweet that will satisfy your sweet tootH",
   },
   {
     name: "LADDU SPL",
@@ -36,7 +38,7 @@ const gheeSweetProducts = [
   {
     name: "MOTI PAK",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description: "A sumptuous & traditional indian sweet, originating from the vibrant state of gujarat made of desi ghee.",
   },
   {
     name: "DILKHUSAL",
@@ -58,12 +60,13 @@ const gheeSweetProducts = [
   {
     name: "BESAN LADDU",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description: "A rich & aromatic flavor, with a crumbly and melt-in-your-mouth texture.",
   },
   {
     name: "DRYFRUIT LADDU",
     photo: "",
-    description: "Dry fruit laddu is a healthy and energy-packed sweet treat. It is often enjoyed as a snack or dessert.",
+    description:
+      "Dry fruit laddu is a healthy and energy-packed sweet treat. It is often enjoyed as a snack or dessert.",
   },
   {
     name: "GOND PAK",
@@ -73,7 +76,8 @@ const gheeSweetProducts = [
   {
     name: "GOND LADDU",
     photo: "",
-    description: "A perfect and healthy fusion of refined flour and Edible Gum (Gond). Indulge in the irresistible combination of textures, offering a delightful symphony of flavors in every bite.",
+    description:
+      "A perfect and healthy fusion of refined flour and Edible Gum (Gond). Indulge in the irresistible combination of textures, offering a delightful symphony of flavors in every bite.",
   },
 ];
 

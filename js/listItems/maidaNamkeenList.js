@@ -3,7 +3,7 @@ const maidanamkeenProductsList = [
   {
     name: "MINI KACHORI",
     photo: "./img/namkeen/2-2-500x500.jpg",
-    description: "Description of Product 1",
+    description: "A deep-fried pastry filled with a savory stuffing, known for its crispy outer shell & flavorful filling.",
   },
   {
     name: "MINI SINGHARA",

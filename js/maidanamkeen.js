@@ -3,17 +3,19 @@ const maidanamkeenProducts = [
   {
     name: "MINI KACHORI",
     photo: "./img/namkeen/2-2-500x500.jpg",
-    description: "Description of Product 1",
+    description:
+      "A deep-fried pastry filled with a savory stuffing, known for its crispy outer shell & flavorful filling.",
   },
   {
     name: "MINI SINGHARA",
     photo: "./img/namkeen/3-1.jpg",
-    description: "Description of Product 1",
+    description:
+      "Mini sized samosa with dry aromatic filling best for your snack time.",
   },
   {
     name: "JAWA NAMKIN",
     photo: "./img/namkeen/IMG_0353.jpg",
-    description: "Description of Product 2",
+    description: "India’s favourite salty tea time snack.",
   },
   {
     name: "SADA SWALI",
@@ -24,7 +26,7 @@ const maidanamkeenProducts = [
   {
     name: "METHI SWALI",
     photo: "./img/namkeen/IMG_0365.jpg",
-    description: "Description of Product 3",
+    description: "A savory snack infused with the distinct flavors of fenugreek leaves & aromatic spices.",
   },
   {
     name: "LAMBA PAPDI",
@@ -55,10 +57,11 @@ function renderProducts(products, productRowId) {
 
   // Render product cards
   products.forEach((product) => {
-	if(product.photo !==''){
-		const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
-		ProductsRow.insertAdjacentHTML("beforeend", cardHTML); // Insert the card HTML into the productsRow element}
-  }})
+    if (product.photo !== "") {
+      const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
+      ProductsRow.insertAdjacentHTML("beforeend", cardHTML); // Insert the card HTML into the productsRow element}
+    }
+  });
 }
 
 // Render initial set of product cards
