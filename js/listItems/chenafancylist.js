@@ -83,7 +83,7 @@ const chenaFancySweetProductsList = [
 
 function createListCard(product) {
   return `
-    <div class="col-md-3 m-1 ">
+    <div class="col-md-3  my-1">
     <div class="card bg-transparent" >
     <div class="card-body">
       <h5 class="card-title text-dark">${product.name}</h5>

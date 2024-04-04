@@ -4,27 +4,32 @@ const chenaSweetProductsList = [
   {
     name: "ROSOGOLLA",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju masthead .png",
-    description: "Description of Product 1",
+    description:
+      "A delicate and melt-in-your-mouth texture. Known for its mildly sweet & milky flavor.",
   },
   {
     name: "RAJ BHOG",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description:
+      "Soft and spongy texture filled with lite keasar and pista. Soked in sugar syrup.",
   },
   {
     name: "GULAB JAMUN SPL ",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description:
+      "Deep-fried milk-based dough balls soaked in fragrant sugar syrup.",
   },
   {
     name: "GULAB JAMUN MEDIUM",
     photo: "",
-    description: "Description of Product 1",
+    description:
+      "Deep-fried milk-based dough balls soaked in fragrant sugar syrup.",
   },
   {
     name: "GULAB JAMUN MINI",
     photo: "",
-    description: "Description of Product 1",
+    description:
+      "Deep-fried milk-based dough balls soaked in fragrant sugar syrup.",
   },
   {
     name: "CHAM CHAM RAW ",
@@ -34,7 +39,8 @@ const chenaSweetProductsList = [
   {
     name: "MILK CAKE",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description:
+      "Made from milk & sugar. It has a crumbly yet moist texture with a rich milky flavor.",
   },
   {
     name: "NEW MILK CAKE",
@@ -44,7 +50,8 @@ const chenaSweetProductsList = [
   {
     name: "KALAKAND",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
+    description:
+      "Renowned for its grainy texture and rich, milky flavor. It has a perfect balance of sweetness.",
   },
   {
     name: "GHEE KALAKAND",
@@ -60,20 +67,18 @@ const chenaSweetProductsList = [
 
 function createListCard(product) {
   return `
-    <div class="col-md-3 m-1 ">
-    <div class="card bg-transparent" >
-    <div class="card-body">
+    <div class='col-md-6 col-lg-4 col-xl-3 my-1'>
+    <div class="card bg-transparent">
+    <div class="card-body px-0">
       <h5 class="card-title text-dark">${product.name}</h5>
     </div>
-  </div>
-  </div> `;
+  </div></div> `;
 }
 
 function renderProducts(products, productRowId) {
   const ProductsRow = document.getElementById(productRowId);
 
   ProductsRow.innerHTML = ""; // Clear previous content
-  
 
   // Render product cards
   products.forEach((product) => {

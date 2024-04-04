@@ -2,7 +2,7 @@
 // for  sandwiches
 const sandwichProductsList = [
   {
-    name: "VEG GRILL CHEESE SANDWICH",
+    name: "V. GRILL CHEESE SANDWICH",
     photo: "",
     description: "Description of Product 1",
   },
@@ -30,10 +30,10 @@ const sandwichProductsList = [
 
 function createListCard(product) {
   return `
-    <div class="col-md-3 m-1 ">
-    <div class="card bg-transparent" >
+    <div class="col-md-3 my-1">
+    <div class="card bg-transparent h-100" >
     <div class="card-body">
-      <h5 class="card-title text-dark">${product.name}</h5>
+      <h5 class="card-title text-dark" style="text-align-justify">${product.name}</h5>
     </div>
   </div>
   </div> `;
