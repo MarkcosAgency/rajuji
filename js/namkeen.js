@@ -3,17 +3,18 @@ const namkeenProducts = [
   {
     name: "BHUJIA",
     photo: "./img/namkeen/2-2-500x500.jpg",
-    description: "Description of Product 1",
+    description:
+      "The flavorful & satisfying taste makes it an irresistible choice for a spicy treat",
   },
   {
     name: "JHAL CHANACHUR",
     photo: "./img/namkeen/3-1.jpg",
-    description: "Description of Product 1",
+    description: "A zesty & spicy snack for all spicy lovers.",
   },
   {
     name: "KHATTA MITHA",
     photo: "./img/namkeen/IMG_0353.jpg",
-    description: "Description of Product 2",
+    description: "A crispy snack prepared using sweet and sour.",
   },
   {
     name: "KHASTA CHANACHUR",
@@ -24,12 +25,12 @@ const namkeenProducts = [
   {
     name: "MOONG DAL",
     photo: "./img/namkeen/IMG_0365.jpg",
-    description: "Description of Product 3",
+    description: "Fried dal for people who loves sober test.",
   },
   {
     name: "CORNFLAKS MIXTURE",
     photo: "./img/namkeen/IMG_0367.jpg",
-    description: "Description of Product 3",
+    description: "A crunch of cornflakes with dry fruits making it a unique blend of crunch & health.",
   },
   {
     name: "PANCHRATAN",
@@ -49,7 +50,7 @@ const namkeenProducts = [
   {
     name: "SADA CHIPS",
     photo: "./img/namkeen/IMG_0399.jpg",
-    description: "Description of Product 3",
+    description: "A pure flavor of thinly sliced potatoes, lightly seasoned & perfectly crisp.",
   },
   {
     name: "CHILI POTATO CHIPS",
@@ -84,7 +85,7 @@ const namkeenProducts = [
   {
     name: "ALL IN ONE",
     photo: "./img/namkeen/IMG_0403.jpg",
-    description: "Description of Product 3",
+    description: "A delicious & crunchy snack of all type of indian namkeens mixed together to give it a uniqueness",
   },
   {
     name: "MARWARI BHUJIA",

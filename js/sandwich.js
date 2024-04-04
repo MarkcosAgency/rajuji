@@ -19,12 +19,12 @@ const sandwichProducts = [
 	{
 		name: "VEG CHEESE BURGER",
 		photo: "./img/Rajuji Products/12.png",
-		description: "Description of Product 3",
+		description: "A symphony of flavors featuring a savory vegetable patty with melted cheese.",
 	},
 	{
 		name: "VEG PIZZA",
 		photo: "./img/Rajuji Products/13.png",
-		description: "Description of Product 4",
+		description: "Hand made base of our veg pizza with fresh tomato, capscicum and cheese.",
 	}
 ];
 

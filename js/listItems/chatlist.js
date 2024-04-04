@@ -2,17 +2,17 @@ const chatProductsList = [
   {
     name: "RAJ KACHORI",
     photo: "./img/Rajuji Products/10.png",
-    description: "Description of Product 1",
+    description: "King sized Kachori stuffed with sprouts, vegetables,crispy pakoris, yogurt, and topped with spices, chutneys, crispy bhujia.1",
   },
   {
     name: "PAPDI CHAT",
     photo: "",
-    description: "Description of Product 1",
+    description: "Crispy papdis adorned with tangy chutneys, yogurt, and spices create a mouthwatering street food experience.",
   },
   {
     name: "DAHI VADA",
     photo: "./img/Rajuji Products/11.png",
-    description: "Description of Product 2",
+    description: "Soft lentil flat dumplings soaked in creamy yogurt, garnished with aromatic spices.",
   },
 ];
 
@@ -43,9 +43,9 @@ function renderProducts(products, productRowId) {
 }
 
 // Render initial set of product cards
-renderProducts(chatProducts, "chatListsRow");
+renderProducts(chatProductsList, "chatListsRow");
 
 // You may also want to re-render the product cards on window resize event to adjust the number of cards displayed based on screen size.
 window.addEventListener("resize", function () {
-  renderProducts(chatProducts, "chatListsRow");
+  renderProducts(chatProductsList, "chatListsRow");
 });

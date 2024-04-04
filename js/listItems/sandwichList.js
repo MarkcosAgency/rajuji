@@ -2,7 +2,7 @@
 // for  sandwiches
 const sandwichProductsList = [
   {
-    name: "V. GRILL CHEESE SANDWICH",
+    name: "VEG GRILL CHEESE SANDWICH",
     photo: "",
     description: "Description of Product 1",
   },
@@ -19,12 +19,14 @@ const sandwichProductsList = [
   {
     name: "VEG CHEESE BURGER",
     photo: "./img/Rajuji Products/12.png",
-    description: "Description of Product 3",
+    description:
+      "A symphony of flavors featuring a savory vegetable patty with melted cheese.",
   },
   {
     name: "VEG PIZZA",
     photo: "./img/Rajuji Products/13.png",
-    description: "Description of Product 4",
+    description:
+      "Hand made base of our veg pizza with fresh tomato, capscicum and cheese.",
   },
 ];
 
@@ -40,7 +42,6 @@ function createListCard(product) {
   </div> 
   `;
 }
-
 
 // Function to render product cards
 function renderProducts(products, productRowId) {
