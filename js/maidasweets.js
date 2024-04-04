@@ -5,12 +5,12 @@ const maidaSweetProducts = [
 	{
 		name: "CHANDRAKALA",
 		photo: "",
-		description: "Description of Product 1",
+		description: "indian sweet. Combining the creaminess of khoya imbeded in the crunchiness of the fried pastry.",
 	},
 	{
 		name: "BALU SAHI",
 		photo: "",
-		description: "Description of Product 1",
+		description: "A delicate flour treat immersed in a sweet syrup, after being lovingly fried in ghee!",
 	}
 ];
 

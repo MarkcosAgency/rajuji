@@ -2,12 +2,13 @@ const gheeSweetProductsList = [
   {
     name: "SOAN PAPDI ELAICHI",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju masthead .png",
-    description: "Description of Product 1",
+    description:
+      "Is a popular indian sweet that is known for its flaky and melt-in-the-mouth texture and made with deshi ghee. It likely emphasizes the traditional or authentic version of this sweet.",
   },
   {
     name: "SOAN PAPDI DESHI",
     photo: "",
-    description: "Description of Product 1",
+    description: "Is a popular indian sweet that is known for its flaky and melt-in-the-mouth texture and made with deshi ghee. It likely emphasizes the traditional or authentic version of this sweet.",
   },
   {
     name: "LADDU KESARIA",
@@ -27,7 +28,8 @@ const gheeSweetProductsList = [
   {
     name: "LADDU SPL",
     photo: "",
-    description: "Description of Product 1",
+    description:
+      "A delectable sweet treat perfect for satisfying your dessert cravings.",
   },
   {
     name: "MOTI PAK",
@@ -37,17 +39,19 @@ const gheeSweetProductsList = [
   {
     name: "DILKHUSAL",
     photo: "",
-    description: "Description of Product 1",
+    description: " A classic vegetarian sweet perfect for any occasion.",
   },
   {
     name: "SATTU",
     photo: "",
-    description: "Description of Product 1",
+    description:
+      "This sweet is made by roasting sattu in pure ghee and adding sweetness to it.",
   },
   {
     name: "DESHI BUNDI",
     photo: "",
-    description: "Description of Product 1",
+    description:
+      " Desi bundi, also known as boondi, is a popular indian sweet. The combination of the crispy boondis and the sweet syrup makes desi bundi a delightful and popular treat.1",
   },
   {
     name: "BESAN LADDU",
@@ -57,7 +61,7 @@ const gheeSweetProductsList = [
   {
     name: "DRYFRUIT LADDU",
     photo: "",
-    description: "Description of Product 1",
+    description: "Dry fruit laddu is a healthy and energy-packed sweet treat. It is often enjoyed as a snack or dessert.",
   },
   {
     name: "GOND PAK",
@@ -67,8 +71,8 @@ const gheeSweetProductsList = [
   {
     name: "GOND LADDU",
     photo: "",
-    description: "Description of Product 1",
-  },
+    description: "A perfect and healthy fusion of refined flour and Edible Gum (Gond). Indulge in the irresistible combination of textures, offering a delightful symphony of flavors in every bite.",
+  },,
 ];
 
 function createListCard(product) {

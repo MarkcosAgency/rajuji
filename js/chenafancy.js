@@ -20,12 +20,12 @@ const chenaFancySweetProducts = [
   {
     name: "CHAM CHAM MALAI",
     photo: "",
-    description: "Description of Product 1",
+    description: " Malai cham cham is a delicious indian sweet. These milk-based sweets are typically flavored with cardamom and adorned with a layer of malai.",
   },
   {
     name: "CHAM CHAM KESAR MALAI",
     photo: "",
-    description: "Description of Product 1",
+    description: "Is a delicious indian sweet. It has a soft and spongy texture and is soaked in a sweet syrup. With dash of essence of keasr. Truly delightful treat.",
   },
   {
     name: "CHAM CHAM FRUIT MALAI ",
@@ -35,7 +35,7 @@ const chenaFancySweetProducts = [
   {
     name: "ABARKHABO",
     photo: "",
-    description: "Description of Product 1",
+    description: "Bet you can't stop at just one!",
   },
   {
     name: "CHAM CHAM KESAR",
@@ -55,7 +55,7 @@ const chenaFancySweetProducts = [
   {
     name: "PARWAL",
     photo: "",
-    description: "Description of Product 1",
+    description: "Parwal sweets are a unique and innovative take on traditional indian desserts, infusing fresh vegetablewith sugar syrup wth sweet fillings of khoya.",
   },
   {
     name: "RASMALAI",
@@ -65,12 +65,12 @@ const chenaFancySweetProducts = [
   {
     name: "CHENA PAYESH",
     photo: "",
-    description: "Description of Product 1",
+    description: "Chena kheer is a traditional recipe which is prepared by adding small Bengali rasgullas in thick saffron milk.",
   },
   {
     name: "CHENA TOAST",
     photo: "",
-    description: "Description of Product 1",
+    description: "Creamy and rich toast with a hint of sweetness.",
   },
   {
     name: "KESARIA JELEBI",

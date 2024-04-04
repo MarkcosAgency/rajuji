@@ -382,9 +382,9 @@ nav .nav-link {
     right: 15px; /* Adjust as needed */
     transform: translateY(-50%);
   }
-  .hero .web {
+  /* .hero .web {
     display: none;
-  }
+  } */
   .hero .mobile {
     display: block;
   }

@@ -90,7 +90,6 @@ function createListCard(product) {
   `;
 }
 
-
 function renderProducts(products, productRowId) {
   const ProductsRow = document.getElementById(productRowId);
   ProductsRow.innerHTML = ""; // Clear previous content
@@ -105,9 +104,9 @@ function renderProducts(products, productRowId) {
 }
 
 // Render initial set of product cards
-renderProducts(restaurantProductsList, "restaurantListRow");
+renderProducts(restaurantProductsList, "restaurantListsRow");
 
 // You may also want to re-render the product cards on window resize event to adjust the number of cards displayed based on screen size.
 window.addEventListener("resize", function () {
-  renderProducts(restaurantProductsList, "restaurantListRow");
+  renderProducts(restaurantProductsList, "restaurantListsRow");
 });
