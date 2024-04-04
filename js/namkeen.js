@@ -132,7 +132,7 @@ function createProductCard(product) {
 				class="p-4 border text-dark .text-montserrat text-start border-top-0">
 				<h4>${product.name}</h4>
 				<p class=" text-cocon m-0">
-					${product.description}
+				Description of	${product.name}
 				</p>
 			</div>
     </div>
@@ -149,7 +149,7 @@ function createListCard(product) {
 				class="p-4 border text-dark .text-montserrat text-start border-top-0">
 				<h4>${product.name}</h4>
 				<p class=" text-cocon m-0">
-					${product.description}
+				Description of	${product.name}
 				</p>
 			</div>
 	  </div>

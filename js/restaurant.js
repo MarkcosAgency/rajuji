@@ -2,77 +2,77 @@
 const restaurantProducts = [
 	{
 		name: "CHOLA BHATURA",
-		photo: "./img/namkeen/2-2-500x500.jpg",
+		photo: "",
 		description: "Description of Product 1",
 	},
 	{
 		name: "RADHABALLVI",
-		photo: "./img/namkeen/3-1.jpg",
+		photo: "",
 		description: "Description of Product 1",
 	},
 	{
 		name: "SABJI KHASTA  KACHORI",
-		photo: "./img/namkeen/IMG_0353.jpg",
+		photo: "",
 		description: "Description of Product 2",
 	},
 	{
 		name: "IDLY SAMBAR CHATNI",
-		photo: "./img/namkeen/IMG_0360.jpg",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	
 	{
 		name: "PLAIN DOSA",
-		photo: "./img/namkeen/IMG_0365.jpg",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "MASALA DOSA",
-		photo: "./img/namkeen/IMG_0367.jpg",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "CHOWMEIN",
-		photo: "./img/namkeen/IMG_0372.jpg",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "NAAN",
-		photo: "./img/namkeen/IMG_0397.jpg",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "MASALA KULCHA",
-		photo: "./img/namkeen/IMG_0398.jpg",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "FALKA",
-		photo: "./img/namkeen/IMG_0399.jpg",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "PULAO",
-		photo: "./img/namkeen/IMG_0400.jpg",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "MIX VEG PANEER",
-		photo: "./img/namkeen/IMG_0401.jpg",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "DAL MAKHANI",
-		photo: "./img/namkeen/IMG_0402.jpg",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "DAL FRY",
-		photo: "./img/namkeen/IMG_0403.jpg",
+		photo: "",
 		description: "Description of Product 3",
 	},{
 		name: "RAITA",
-		photo: "./img/namkeen/IMG_0403.jpg",
+		photo: "",
 		description: "Description of Product 3",
 	}
 ];
@@ -106,8 +106,9 @@ function renderProducts(products, productRowId) {
 
 	// Render product cards
 	products.forEach((product) => {
-		const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
-		ProductsRow.insertAdjacentHTML("beforeend", cardHTML); // Insert the card HTML into the productsRow element
+	if(product.photo !=''){	const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
+	ProductsRow.insertAdjacentHTML("beforeend", cardHTML); // Insert the card HTML into the productsRow element
+}
 	});
 }
 

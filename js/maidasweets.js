@@ -1,14 +1,15 @@
 // Sample data for products
 // for  sweets
+
 const maidaSweetProducts = [
 	{
 		name: "CHANDRAKALA",
-		photo: "./img/Rajuji_Al_Prdt_img/Kaju masthead .png",
+		photo: "",
 		description: "Description of Product 1",
 	},
 	{
 		name: "BALU SAHI",
-		photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+		photo: "",
 		description: "Description of Product 1",
 	}
 ];
@@ -42,9 +43,9 @@ function renderProducts(products, productRowId) {
 
 	// Render product cards
 	products.forEach((product) => {
-		const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
-		ProductsRow.insertAdjacentHTML("beforeend", cardHTML); // Insert the card HTML into the productsRow element
-	});
+	if(product.photo !==''){	const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
+	ProductsRow.insertAdjacentHTML("beforeend", cardHTML); // Insert the card HTML into the productsRow element}
+	}});
 }
 
 // Render initial set of product cards

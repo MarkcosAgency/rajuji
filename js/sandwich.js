@@ -3,17 +3,17 @@
 const sandwichProducts = [
 	{
 		name: "VEG GRILL CHEESE SANDWICH",
-		photo: "./img/Rajuji Products/10.png",
+		photo: "",
 		description: "Description of Product 1",
 	},
 	{
 		name: "VEG CHEESE SANDWICH",
-		photo: "./img/Rajuji Products/10.png",
+		photo: "",
 		description: "Description of Product 1",
 	},
 	{
 		name: "COLE SLOW SANDWICH",
-		photo: "./img/Rajuji Products/11.png",
+		photo: "",
 		description: "Description of Product 2",
 	},
 	{
@@ -57,8 +57,10 @@ function renderProducts(products, productRowId) {
 
 	// Render product cards
 	products.forEach((product) => {
-		const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
+		if(product.photo !=''){
+			const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
 		ProductsRow.insertAdjacentHTML("beforeend", cardHTML); // Insert the card HTML into the productsRow element
+		}
 	});
 }
 

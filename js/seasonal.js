@@ -134,7 +134,7 @@ const seasonalProducts = [
 	},
 	{
 		name: "DALDA GHEWAR",
-		photo: "./img/Rajuji Products/10.png",
+		photo: "",
 		description: "Description of Product 1",
 	},
 	{
@@ -144,13 +144,13 @@ const seasonalProducts = [
 	},
 	{
 		name: "MILK GHEWAR SMALL",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	
 	{
 		name: "MILK GHEWAR MINI",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
@@ -170,57 +170,57 @@ const seasonalProducts = [
 	},
 	{
 		name: "GAJAK",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "TIL",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "MOONGFALI",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "STRAWBERRY",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "LITCHI",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "MANGO",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "SITAPHAL",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "ORANGE",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "GRAPES",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "BLUEBERRY",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "",
 		description: "Description of Product 3",
 	},
 	{
 		name: "PISTA",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "",
 		description: "Description of Product 3",
 	}
 ];
@@ -253,8 +253,10 @@ function renderProducts(products, productRowId) {
 
 	// Render product cards
 	products.forEach((product) => {
-		const cardHTML = createProductCard(product); 
+		if(product.photo !==''){
+			const cardHTML = createProductCard(product); 
 		ProductsRow.insertAdjacentHTML("beforeend", cardHTML); 
+		}
 	});
 }
 

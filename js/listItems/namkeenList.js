@@ -120,18 +120,21 @@ const namkeenProductsList = [
 
 function createListCard(product) {
   return `
-  <li class="">${product.name}</li>
-            `;
+  <div class="col-md-3 m-1 ">
+  <div class="card bg-transparent" >
+  <div class="card-body">
+    <h5 class="card-title text-dark">${product.name}</h5>
+  </div>
+</div>
+</div> `;
 }
 
 // Function to render product cards
 function renderProducts(products, productRowId) {
   const ProductsRow = document.getElementById(productRowId);
-  const ListRow = document.getElementById("namkeensListsRow");
+ 
   ProductsRow.innerHTML = ""; // Clear previous content
-  ListRow.innerHTML = "";
-  const lists = document.createElement("ul");
-  let str;
+ 
 
   // Render product cards
   products.forEach((product) => {

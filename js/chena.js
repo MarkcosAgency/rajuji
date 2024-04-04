@@ -18,16 +18,16 @@ const chenaSweetProducts = [
 	},
     {
 		name: "GULAB JAMUN MEDIUM",
-		photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+		photo: "",
 		description: "Description of Product 1",
 	},
     {
 		name: "GULAB JAMUN MINI",
-		photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+		photo: "",
 		description: "Description of Product 1",
 	},{
 		name: "CHAM CHAM RAW ",
-		photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+		photo: "",
 		description: "Description of Product 1",
 	},{
 		name: "MILK CAKE",
@@ -35,7 +35,7 @@ const chenaSweetProducts = [
 		description: "Description of Product 1",
 	},{
 		name: "NEW MILK CAKE",
-		photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+		photo: "",
 		description: "Description of Product 1",
 	},
     {
@@ -45,12 +45,12 @@ const chenaSweetProducts = [
 	},
     {
 		name: "GHEE KALAKAND",
-		photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+		photo: "",
 		description: "Description of Product 1",
 	},
     {
 		name: "MATHURA PEDA",
-		photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+		photo: "",
 		description: "Description of Product 1",
 	},
 ];
@@ -84,8 +84,10 @@ function renderProducts(products, productRowId) {
 
 	// Render product cards
 	products.forEach((product) => {
-		const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
+		if(product.photo != ''){
+			const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
 		ProductsRow.insertAdjacentHTML("beforeend", cardHTML); // Insert the card HTML into the productsRow element
+		}
 	});
 }
 

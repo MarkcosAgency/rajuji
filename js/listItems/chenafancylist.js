@@ -1,118 +1,114 @@
-// Sample data for products
-// for  sweets
-const gheeSweetProducts = [
+const chenaFancySweetProductsList = [
   {
-    name: "SOAN PAPDI ELAICHI",
+    name: "GULAB PATTI SANDESH",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju masthead .png",
     description: "Description of Product 1",
   },
   {
-    name: "SOAN PAPDI DESHI",
+    name: "ICE CREAM SANDESH",
     photo: "",
     description: "Description of Product 1",
   },
   {
-    name: "LADDU KESARIA",
+    name: "KESAR SANDESH",
+    photo: "",
+    description: "Description of Product 1",
+  },
+  {
+    name: "CHAM CHAM MALAI",
+    photo: "",
+    description: "Description of Product 1",
+  },
+  {
+    name: "CHAM CHAM KESAR MALAI",
+    photo: "",
+    description: "Description of Product 1",
+  },
+  {
+    name: "CHAM CHAM FRUIT MALAI ",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
     description: "Description of Product 1",
   },
   {
-    name: "LADDU DESHI",
+    name: "ABARKHABO",
+    photo: "",
+    description: "Description of Product 1",
+  },
+  {
+    name: "CHAM CHAM KESAR",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
     description: "Description of Product 1",
   },
   {
-    name: "LADDU KANPURI",
+    name: "COCONUT MALAI CUP",
+    photo: "",
+    description: "Description of Product 1",
+  },
+  {
+    name: "RABRI MALPUA",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
     description: "Description of Product 1",
   },
   {
-    name: "LADDU SPL",
+    name: "PARWAL",
     photo: "",
     description: "Description of Product 1",
   },
   {
-    name: "MOTI PAK",
+    name: "RASMALAI",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
     description: "Description of Product 1",
   },
   {
-    name: "DILKHUSAL",
+    name: "CHENA PAYESH",
     photo: "",
     description: "Description of Product 1",
   },
   {
-    name: "SATTU",
+    name: "CHENA TOAST",
     photo: "",
     description: "Description of Product 1",
   },
   {
-    name: "DESHI BUNDI",
-    photo: "",
-    description: "Description of Product 1",
-  },
-  {
-    name: "BESAN LADDU",
+    name: "KESARIA JELEBI",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
     description: "Description of Product 1",
   },
   {
-    name: "DRYFRUIT LADDU",
-    photo: "",
-    description: "Description of Product 1",
-  },
-  {
-    name: "GOND PAK",
-    photo: "",
-    description: "Description of Product 1",
-  },
-  {
-    name: "GOND LADDU",
-    photo: "",
+    name: "IMERTI",
+    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
     description: "Description of Product 1",
   },
 ];
 
-// Function to dynamically create product cards
-function createProductCard(product) {
+function createListCard(product) {
   return `
-    <div class="col-md-6 col-lg-4 col-xl-3">
-    <div class="rounded sweets-card">
-        <div class="">
-            <img src="${product.photo}"
-                class="img-fluid w-100 rounded-top" alt=${product.name} />
-        </div>
-
-        <div
-            class="p-4 border text-dark .text-montserrat text-start border-top-0">
-            <h4>${product.name}</h4>
-            <p class=" text-cocon m-0">
-              Description of ${product.name}
-            </p>
-        </div>
+    <div class="col-md-3 m-1 ">
+    <div class="card bg-transparent" >
+    <div class="card-body">
+      <h5 class="card-title text-dark">${product.name}</h5>
     </div>
-</div>
-        `;
+  </div>
+  </div> `;
 }
 
-// Function to render product cards
 function renderProducts(products, productRowId) {
   const ProductsRow = document.getElementById(productRowId);
   ProductsRow.innerHTML = ""; // Clear previous content
 
   // Render product cards
   products.forEach((product) => {
-    if (product.photo != "") {
-      const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
+    if (product.photo == "") {
+      const cardHTML = createListCard(product); // Call the createProductCard function and pass the product object as an argument
       ProductsRow.insertAdjacentHTML("beforeend", cardHTML); // Insert the card HTML into the productsRow element
     }
   });
 }
 
 // Render initial set of product cards
-renderProducts(gheeSweetProducts, "gheeProductsRow");
+renderProducts(chenaFancySweetProductsList, "chenafancysweetsListsRow");
 
 // You may also want to re-render the product cards on window resize event to adjust the number of cards displayed based on screen size.
 window.addEventListener("resize", function () {
-  renderProducts(gheeSweetProducts, "gheeProductsRow");
+  renderProducts(chenaFancySweetProductsList, "chenafancysweetsListsRow");
 });

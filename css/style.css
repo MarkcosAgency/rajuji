@@ -267,8 +267,8 @@ nav .nav-link {
   font-family: "Montserrat", sans-serif;
 }
 .text-cocon {
-  font-family: "Oswald", sans-serif;
-  /* font-size: 1.5rem; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem !important;
   /* font-weight: 200; */
 }
 .banner-img {

@@ -1,24 +1,24 @@
 :root {
-	--color-green: #0dae99;
-	--color-orange: #ecb15a;
+  --color-green: #0dae99;
+  --color-orange: #ecb15a;
 }
 .full-height-section {
-	height: 70vh;
-	overflow: hidden; /* Optional: Prevent vertical scrolling if content exceeds viewport height */
+  height: 70vh;
+  overflow: hidden; /* Optional: Prevent vertical scrolling if content exceeds viewport height */
 }
 
 .full-height-section .row {
-	height: 100%;
-	color: #51957e;
+  height: 100%;
+  color: #51957e;
 }
 .green {
-	background-color: var(--color-green);
+  background-color: var(--color-green);
 }
-.pattern {
+/* .pattern {
 	background-image: url("../img/svg/Pattern.svg");
 	background-size: contain;
 	background-position: center;
-}
+} */
 .orange {
-	background-color: var(--color-orange);
+  background-color: var(--color-orange);
 }
