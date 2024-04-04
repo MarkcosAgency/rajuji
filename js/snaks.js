@@ -9,27 +9,30 @@ const sweetProducts = [
   {
     name: "KHASTA KACHORI",
     photo: "./img/Rajuji Products/10.png",
-    description: "Description of Product 1",
+    description: "Golden fried delights filled with savory spiced lentils.",
   },
   {
     name: "CUTLET",
-    photo: "./img/Rajuji Products/11.png",
-    description: "Description of Product 2",
+    photo: "",
+    description:
+      "A mix of various steamed vegetables like bit, beans, peas and carrot mixed in potato.",
   },
   {
     name: "DHOKLA",
     photo: "./img/Rajuji Products/12.png",
-    description: "Description of Product 3",
+    description:
+      "A harmonious blend of fermented goodness, offering a taste of authentic indian flavors in every delightful bite. Served with tamarind & green chatni.",
   },
   {
     name: "VEG PATTIES",
-    photo: "./img/Rajuji Products/13.png",
-    description: "Description of Product 4",
+    photo: "",
+    description:
+      "Appetizing vegetable patties are a delicious treat. They are loaded with potatoes, carrots, corn, green beans, and peas, and cooked",
   },
   {
     name: "KHANDVI",
-    photo: "./img/Rajuji Products/13.png",
-    description: "Description of Product 4",
+    photo: "",
+    description: "A rolled-up marvel of gram flour perfection. Silky smooth, adorned with mustard seeds, green chillies and coconut, it's a gujarati specialty with its delicate texture & zesty flavor.",
   },
 ];
 
@@ -37,7 +40,7 @@ const sweetProducts = [
 function createProductCard(product) {
   return `
     <div class="col-md-6 col-lg-4 col-xl-3">
-    <div class="card w-auto  bg-transparent text-dark" style="">
+    <div class="card w-auto  bg-transparent text-dark h-100" style="">
   <img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
   <div class="card-body text-start">
     <h5 class="card-title ">${product.name}</h5>
@@ -55,8 +58,10 @@ function renderProducts(products, productRowId) {
 
   // Render product cards
   products.forEach((product) => {
+  if(product.photo !=''){
     const cardHTML = createProductCard(product); // Call the createProductCard function and pass the product object as an argument
     ProductsRow.insertAdjacentHTML("beforeend", cardHTML); // Insert the card HTML into the productsRow element
+  }
   });
 }
 

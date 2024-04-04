@@ -67,7 +67,7 @@ const chenaSweetProducts = [
 function createProductCard(product) {
   return `
 	  <div class="col-md-6 col-lg-4 col-xl-3">
-	  <div class="card w-auto  bg-transparent text-dark" style="">
+	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
 	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>

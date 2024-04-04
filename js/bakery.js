@@ -108,18 +108,16 @@ const bakeryCookies = [
 // Function to dynamically create product cards
 function createProductCard(product) {
   return `
-    <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="rounded bakery-card">
-            <div>
-                <img src="${product.photo}" class="img-fluid w-100 rounded-top" alt="${product.name}" />
-            </div>
-            <div class="p-4 border text-dark .text-montserrat text-start border-top-0">
-                <h4>${product.name}</h4>
-                <p class="text-cocon m-0">${product.description}</p>
-            </div>
-        </div>
-    </div>
-    `;
+	  <div class="col-md-6 col-lg-4 col-xl-3">
+	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
+	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
+	<div class="card-body text-start">
+	  <h5 class="card-title ">${product.name}</h5>
+	  <p class="card-text">${product.description}</p>
+	</div>
+  </div>
+  </div> 
+  `;
 }
 
 // Function to render product cards

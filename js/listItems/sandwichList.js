@@ -30,14 +30,17 @@ const sandwichProductsList = [
 
 function createListCard(product) {
   return `
-    <div class="col-md-3 my-1">
-    <div class="card bg-transparent h-100" >
-    <div class="card-body">
-      <h5 class="card-title text-dark" style="text-align-justify">${product.name}</h5>
-    </div>
+	  <div class="col-md-6 col-lg-4 col-xl-3 my-2">
+	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
+	<div class="card-body text-start">
+	  <h5 class="card-title ">${product.name}</h5>
+	  <p class="card-text">${product.description}</p>
+	</div>
   </div>
-  </div> `;
+  </div> 
+  `;
 }
+
 
 // Function to render product cards
 function renderProducts(products, productRowId) {
