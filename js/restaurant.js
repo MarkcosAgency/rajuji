@@ -3,7 +3,8 @@ const restaurantProducts = [
   {
     name: "CHOLA BHATURA",
     photo: "./img/Rajuji Products/13.png",
-    description: "Description of Product 1",
+    description:
+      " A spicy chickpea curry paired with fluffy, deep-fried bread, bursting with flavors of North India.",
   },
   {
     name: "RADHABALLVI",
@@ -13,7 +14,8 @@ const restaurantProducts = [
   {
     name: "SABJI KHASTA  KACHORI",
     photo: "./img/Rajuji Products/13.png",
-    description: "Description of Product 2",
+    description:
+      " Crispy fried pastry filled with spiced vegetable mixture, a flavorful Indian snack.",
   },
   {
     name: "IDLY SAMBAR CHATNI",
@@ -80,7 +82,7 @@ const restaurantProducts = [
 
 // Function to dynamically create product cards
 function createProductCard(product) {
-	return `
+  return `
 	  <div class="col-md-6 col-lg-4 col-xl-3">
 	  <div class="card w-auto  bg-transparent text-dark" style="">
 	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
@@ -91,7 +93,7 @@ function createProductCard(product) {
   </div>
   </div> 
   `;
-  }
+}
 
 // Function to render product cards
 function renderProducts(products, productRowId) {

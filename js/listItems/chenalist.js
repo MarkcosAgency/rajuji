@@ -34,7 +34,8 @@ const chenaSweetProductsList = [
   {
     name: "CHAM CHAM RAW ",
     photo: "",
-    description: "Description of Product 1",
+    description:
+      "Cham Cham is a beloved Bengali sweet, crafted from paneer, khoya, soaked in sugar syrup, and often flavored with cardamom. It boasts a soft, melt-in-the-mouth texture, perfect for celebrations.",
   },
   {
     name: "MILK CAKE",
@@ -45,7 +46,8 @@ const chenaSweetProductsList = [
   {
     name: "NEW MILK CAKE",
     photo: "",
-    description: "Description of Product 1",
+    description:
+      "Made from milk & sugar. It has a crumbly yet moist texture with a rich milky flavor.",
   },
   {
     name: "KALAKAND",
@@ -56,12 +58,14 @@ const chenaSweetProductsList = [
   {
     name: "GHEE KALAKAND",
     photo: "",
-    description: "Description of Product 1",
+    description:
+      "Renowned for its grainy texture and rich and milky flavor, made out of pure ghee. It has a perfect balance of sweetness.",
   },
   {
     name: "MATHURA PEDA",
     photo: "",
-    description: " Is a traditional indian sweet that originated in the city of mathura. Made from milk with lot of patience.",
+    description:
+      " Is a traditional indian sweet that originated in the city of mathura. Made from milk with lot of patience.",
   },
 ];
 
@@ -77,7 +81,6 @@ function createListCard(product) {
   </div> 
   `;
 }
-
 
 function renderProducts(products, productRowId) {
   const ProductsRow = document.getElementById(productRowId);

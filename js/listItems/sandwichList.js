@@ -4,17 +4,18 @@ const sandwichProductsList = [
   {
     name: "VEG GRILL CHEESE SANDWICH",
     photo: "",
-    description: "Description of Product 1",
+    description:
+      "A symphony of grilled vegetables tucked between slices.offering a medley of flavors and textures. Served with chips. Veg Item. Veg Cheeee Sandwich (1 Piece). Costs: 51 rupees, Swipe right to add item to cart.",
   },
   {
     name: "VEG CHEESE SANDWICH",
     photo: "",
-    description: "Description of Product 1",
+    description: "An ooey-gooey sandwich filled with tasty veggies and melty cheese.",
   },
   {
     name: "COLE SLOW SANDWICH",
     photo: "",
-    description: "Description of Product 2",
+    description: "A delightful ensemble of fresh vegetables, layered with zesty spreads, nestled between soft slices of bread.",
   },
   {
     name: "VEG CHEESE BURGER",

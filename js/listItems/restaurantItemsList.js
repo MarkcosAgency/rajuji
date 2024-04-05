@@ -1,79 +1,81 @@
 const restaurantProductsList = [
   {
-    name: "CHOLA BHATURA",
-    photo: "",
-    description: "Description of Product 1",
-  },
-  {
     name: "RADHABALLVI",
     photo: "",
-    description: "Description of Product 1",
+    description:
+      "A  delicacy consisting of deep-fried lentil-stuffed flatbreads, showcasing a rich and savory flavor profile typical of Bengali cuisine.",
   },
-  {
-    name: "SABJI KHASTA  KACHORI",
-    photo: "",
-    description: "Description of Product 2",
-  },
+
   {
     name: "IDLY SAMBAR CHATNI",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "A South Indian breakfast staple featuring soft steamed rice cakes (idlis) served with tangy and flavorful lentil-based stew (sambar) and a variety of chutneys, offering a harmonious blend of textures and tastes.",
   },
 
   {
     name: "PLAIN DOSA",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "A thin, crispy, and golden-brown fermented rice and lentil crepe, often served with coconut chutney and sambar, showcasing a delightful balance of flavors and textures.",
   },
   {
     name: "MASALA DOSA",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "A thin, crispy rice and lentil crepe filled with a spiced potato filling, typically served with coconut chutney and sambar, offering a delightful fusion of textures and flavors.",
   },
   {
     name: "CHOWMEIN",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "A popular Chinese stir-fried noodle dish, typically made with egg noodles, vegetables, and sometimes meat or tofu, seasoned with soy sauce and other flavorful ingredients, offering a savory and satisfying meal option.",
   },
   {
     name: "NAAN",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      " A traditional Indian flatbread, typically made from leavened dough and cooked in a tandoor oven",
   },
   {
     name: "MASALA KULCHA",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      " Spiced potato-stuffed North Indian bread, bursting with flavor and baked to perfection.",
   },
   {
     name: "FALKA",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "A type of sweet, crisp fried bread or pastry found in some Indian cuisines, particularly in Bengali cuisine.",
   },
   {
     name: "PULAO",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      " A fragrant and flavorful rice dish cooked with aromatic spices, vegetables, and sometimes meat or seafood, offering a delightful one-pot meal with a balance of textures and tastes.",
   },
   {
     name: "MIX VEG PANEER",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      " A savory Indian dish featuring a medley of mixed vegetables and paneer (Indian cottage cheese), cooked together in a flavorful gravy, offering a delicious combination of textures and flavors. ",
   },
   {
     name: "DAL MAKHANI",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      " A rich and creamy Punjabi lentil dish made with black lentils (urad dal), kidney beans (rajma), butter, cream, and aromatic spices, offering a luscious and indulgent culinary experience.",
   },
   {
     name: "DAL FRY",
     photo: "",
-    description: "Description of Product 3",
+    description: " A flavorful Indian lentil dish made by tempering cooked lentils (usually yellow lentils such as Toor dal or Moong dal) with spices, onions, tomatoes, and garlic, offering a comforting and nutritious meal option.",
   },
   {
     name: "RAITA",
     photo: "",
-    description: "Description of Product 3",
+    description: "A refreshing yogurt-based side dish seasoned with spices and often mixed with chopped vegetables or fruits, providing a cool and tangy complement to spicy Indian dishes.",
   },
 ];
 

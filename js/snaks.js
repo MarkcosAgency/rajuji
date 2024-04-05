@@ -4,7 +4,7 @@ const sweetProducts = [
   {
     name: "SINGHARA BIKANERI",
     photo: "./img/Rajuji Products/10.png",
-    description: "Description of Product 1",
+    description: "A crispy and satisfying snack perfect for any occasion.",
   },
   {
     name: "KHASTA KACHORI",

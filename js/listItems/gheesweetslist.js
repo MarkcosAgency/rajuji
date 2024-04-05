@@ -66,7 +66,7 @@ const gheeSweetProductsList = [
   {
     name: "GOND PAK",
     photo: "",
-    description: "Description of Product 1",
+    description: "A traditional indian dessert made from gond(edible gum), mawa and sugar.",
   },
   {
     name: "GOND LADDU",

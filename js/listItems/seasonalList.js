@@ -17,7 +17,7 @@ const seasonalProductsList = [
   {
     name: "MILK GHEWAR SMALL",
     photo: "",
-    description: "Description of Product 3",
+    description: "Made of pure milk, no additive no colour...its pure",
   },
 
   {
