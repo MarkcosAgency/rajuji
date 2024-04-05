@@ -8,27 +8,32 @@ const chenaFancySweetProductsList = [
   {
     name: "ICE CREAM SANDESH",
     photo: "",
-    description: "A dessert that combines the rich creaminess of ice cream with the delicate sweetness of sandesh.",
+    description:
+      "A dessert that combines the rich creaminess of ice cream with the delicate sweetness of sandesh.",
   },
   {
     name: "KESAR SANDESH",
     photo: "",
-    description: "Kesar sandesh is a traditional indian sweet originating from the state of bengal.",
+    description:
+      "Kesar sandesh is a traditional indian sweet originating from the state of bengal.",
   },
   {
     name: "CHAM CHAM MALAI",
     photo: "",
-    description: " Malai cham cham is a delicious indian sweet. These milk-based sweets are typically flavored with cardamom and adorned with a layer of malai.",
+    description:
+      " Malai cham cham is a delicious indian sweet. These milk-based sweets are typically flavored with cardamom and adorned with a layer of malai.",
   },
   {
     name: "CHAM CHAM KESAR MALAI",
     photo: "",
-    description: "Is a delicious indian sweet. It has a soft and spongy texture and is soaked in a sweet syrup. With dash of essence of keasr. Truly delightful treat.",
+    description:
+      "Is a delicious indian sweet. It has a soft and spongy texture and is soaked in a sweet syrup. With dash of essence of keasr. Truly delightful treat.",
   },
   {
     name: "CHAM CHAM FRUIT MALAI ",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: " Malai cham cham is a delicious indian sweet. These milk-based sweets are typically flavored with cardamom and adorned with a layer of malai.",
+    description:
+      " Malai cham cham is a delicious indian sweet. These milk-based sweets are typically flavored with cardamom and adorned with a layer of malai.",
   },
   {
     name: "ABARKHABO",
@@ -38,7 +43,8 @@ const chenaFancySweetProductsList = [
   {
     name: "CHAM CHAM KESAR",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Is a delicious indian sweet that is a variation of the traditional cham cham.these treats are known for their vibrant color, aromatic saffron flavor, and a delightful texture.",
+    description:
+      "Is a delicious indian sweet that is a variation of the traditional cham cham.these treats are known for their vibrant color, aromatic saffron flavor, and a delightful texture.",
   },
   {
     name: "COCONUT MALAI CUP",
@@ -48,22 +54,26 @@ const chenaFancySweetProductsList = [
   {
     name: "RABRI MALPUA",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Is a delicious indian dessert that combines two popular sweets: rabri and malpua.the malpua pancakes are served with a generous topping of rabri, creating a delightful combination of textures and flavors.",
+    description:
+      "Is a delicious indian dessert that combines two popular sweets: rabri and malpua.the malpua pancakes are served with a generous topping of rabri, creating a delightful combination of textures and flavors.",
   },
   {
     name: "PARWAL",
     photo: "",
-    description: "Parwal sweets are a unique and innovative take on traditional indian desserts, infusing fresh vegetablewith sugar syrup wth sweet fillings of khoya.",
+    description:
+      "Parwal sweets are a unique and innovative take on traditional indian desserts, infusing fresh vegetablewith sugar syrup wth sweet fillings of khoya.",
   },
   {
     name: "RASMALAI",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "A soft and delicate spongy rosgolla dipped in thickened kesar pista milk.",
+    description:
+      "A soft and delicate spongy rosgolla dipped in thickened kesar pista milk.",
   },
   {
     name: "CHENA PAYESH",
     photo: "",
-    description: "Chena kheer is a traditional recipe which is prepared by adding small Bengali rasgullas in thick saffron milk.",
+    description:
+      "Chena kheer is a traditional recipe which is prepared by adding small Bengali rasgullas in thick saffron milk.",
   },
   {
     name: "CHENA TOAST",
@@ -88,7 +98,11 @@ function createListCard(product) {
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
-	  <p class="card-text">${product.description}</p>
+    <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;">${product.description}</p>
+    </div>
 	</div>
   </div>
   </div> 

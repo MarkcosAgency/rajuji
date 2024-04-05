@@ -84,11 +84,15 @@ const restaurantProducts = [
 function createProductCard(product) {
   return `
 	  <div class="col-md-6 col-lg-4 col-xl-3">
-	  <div class="card w-auto  bg-transparent text-dark" style="">
+	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
 	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
-	  <p class="card-text">${product.description}</p>
+    <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;">${product.description}</p>
+    </div>
 	</div>
   </div>
   </div> 

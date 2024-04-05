@@ -130,7 +130,8 @@ const seasonalProducts = [
   {
     name: "DESHI GHEWAR",
     photo: "./img/Rajuji Products/10.png",
-    description: "Description of Product 1",
+    description:
+      "A traditional Indian sweet delicacy originating from Rajasthan, characterized by its intricate and porous disc-shaped structure made from wheat flour and soaked in sugar syrup, often garnished with nuts and edible silver foil.",
   },
   {
     name: "DALDA GHEWAR",
@@ -156,17 +157,19 @@ const seasonalProducts = [
   {
     name: "DESHI FENI",
     photo: "./img/Rajuji Products/12.png",
-    description: "Description of Product 3",
+    description:
+      " Feni is made from cashew apples or coconut sap and has a distinct flavor profile. ",
   },
   {
     name: "LACHHA FENI",
     photo: "./img/Rajuji Products/12.png",
-    description: "A thin, sweet & vermicelli like noodles made of rice flour, sugar & spices",
+    description:
+      "A thin, sweet & vermicelli like noodles made of rice flour, sugar & spices",
   },
   {
     name: "MILK FENI",
     photo: "./img/Rajuji Products/12.png",
-    description: "Description of Product 3",
+    description: "Unlike traditional Feni, which is distilled from cashew apples or coconut sap, Milk Feni is made by distilling cashew feni with milk. This process gives it a smoother and creamier texture compared to regular Feni.",
   },
   {
     name: "GAJAK",
@@ -231,7 +234,11 @@ function createProductCard(product) {
 	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
-	  <p class="card-text">${product.description}</p>
+    <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;">${product.description}</p>
+    </div>
 	</div>
   </div>
   </div> 

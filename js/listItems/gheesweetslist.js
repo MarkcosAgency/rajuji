@@ -8,7 +8,8 @@ const gheeSweetProductsList = [
   {
     name: "SOAN PAPDI DESHI",
     photo: "",
-    description: "Is a popular indian sweet that is known for its flaky and melt-in-the-mouth texture and made with deshi ghee. It likely emphasizes the traditional or authentic version of this sweet.",
+    description:
+      "Is a popular indian sweet that is known for its flaky and melt-in-the-mouth texture and made with deshi ghee. It likely emphasizes the traditional or authentic version of this sweet.",
   },
   {
     name: "LADDU KESARIA",
@@ -61,18 +62,22 @@ const gheeSweetProductsList = [
   {
     name: "DRYFRUIT LADDU",
     photo: "",
-    description: "Dry fruit laddu is a healthy and energy-packed sweet treat. It is often enjoyed as a snack or dessert.",
+    description:
+      "Dry fruit laddu is a healthy and energy-packed sweet treat. It is often enjoyed as a snack or dessert.",
   },
   {
     name: "GOND PAK",
     photo: "",
-    description: "A traditional indian dessert made from gond(edible gum), mawa and sugar.",
+    description:
+      "A traditional indian dessert made from gond(edible gum), mawa and sugar.",
   },
   {
     name: "GOND LADDU",
     photo: "",
-    description: "A perfect and healthy fusion of refined flour and Edible Gum (Gond). Indulge in the irresistible combination of textures, offering a delightful symphony of flavors in every bite.",
-  },,
+    description:
+      "A perfect and healthy fusion of refined flour and Edible Gum (Gond). Indulge in the irresistible combination of textures, offering a delightful symphony of flavors in every bite.",
+  },
+  ,
 ];
 
 function createListCard(product) {
@@ -81,7 +86,11 @@ function createListCard(product) {
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
-	  <p class="card-text">${product.description}</p>
+    <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;">${product.description}</p>
+    </div>
 	</div>
   </div>
   </div> 

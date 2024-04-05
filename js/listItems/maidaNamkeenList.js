@@ -3,7 +3,8 @@ const maidanamkeenProductsList = [
   {
     name: "MINI KACHORI",
     photo: "./img/namkeen/2-2-500x500.jpg",
-    description: "A deep-fried pastry filled with a savory stuffing, known for its crispy outer shell & flavorful filling.",
+    description:
+      "A deep-fried pastry filled with a savory stuffing, known for its crispy outer shell & flavorful filling.",
   },
   {
     name: "MINI SINGHARA",
@@ -18,7 +19,7 @@ const maidanamkeenProductsList = [
   {
     name: "SADA SWALI",
     photo: "",
-    description: "Description of Product 3",
+    description: "A traditional tea times snack of india.",
   },
 
   {
@@ -29,7 +30,8 @@ const maidanamkeenProductsList = [
   {
     name: "LAMBA PAPDI",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "Is a popular indian snack that belongs to the category of crispy and savory foods. It is propular gujraji snack made by handmade. Served with raw papaya bhuji.",
   },
 ];
 
@@ -39,13 +41,16 @@ function createListCard(product) {
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
-	  <p class="card-text">${product.description}</p>
+	  <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;">${product.description}</p>
+    </div>
 	</div>
   </div>
   </div> 
   `;
 }
-
 
 function renderProducts(products, productRowId) {
   const ProductsRow = document.getElementById(productRowId);

@@ -1,14 +1,16 @@
 const maidaSweetProductsList = [
   {
-		name: "CHANDRAKALA",
-		photo: "",
-		description: "indian sweet. Combining the creaminess of khoya imbeded in the crunchiness of the fried pastry.",
-	},
-	{
-		name: "BALU SAHI",
-		photo: "",
-		description: "A delicate flour treat immersed in a sweet syrup, after being lovingly fried in ghee!",
-	}
+    name: "CHANDRAKALA",
+    photo: "",
+    description:
+      "indian sweet. Combining the creaminess of khoya imbeded in the crunchiness of the fried pastry.",
+  },
+  {
+    name: "BALU SAHI",
+    photo: "",
+    description:
+      "A delicate flour treat immersed in a sweet syrup, after being lovingly fried in ghee!",
+  },
 ];
 
 function createListCard(product) {
@@ -17,19 +19,21 @@ function createListCard(product) {
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
-	  <p class="card-text">${product.description}</p>
+    <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;">${product.description}</p>
+    </div>
 	</div>
   </div>
   </div> 
   `;
 }
 
-
 function renderProducts(products, productRowId) {
   const ProductsRow = document.getElementById(productRowId);
-  
+
   ProductsRow.innerHTML = ""; // Clear previous content
-  
 
   // Render product cards
   products.forEach((product) => {

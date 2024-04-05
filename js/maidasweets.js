@@ -27,9 +27,11 @@ function createProductCard(product) {
         <div
             class="p-4 border text-dark .text-montserrat text-start border-top-0">
             <h4>${product.name}</h4>
-            <p class=" text-cocon m-0">
-            Description of    ${product.name}
-            </p>
+			<div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;  
+			overflow: hidden;">${product.description}</p>
+			</div>
         </div>
     </div>
 </div>

@@ -70,12 +70,14 @@ const restaurantProductsList = [
   {
     name: "DAL FRY",
     photo: "",
-    description: " A flavorful Indian lentil dish made by tempering cooked lentils (usually yellow lentils such as Toor dal or Moong dal) with spices, onions, tomatoes, and garlic, offering a comforting and nutritious meal option.",
+    description:
+      " A flavorful Indian lentil dish made by tempering cooked lentils (usually yellow lentils such as Toor dal or Moong dal) with spices, onions, tomatoes, and garlic, offering a comforting and nutritious meal option.",
   },
   {
     name: "RAITA",
     photo: "",
-    description: "A refreshing yogurt-based side dish seasoned with spices and often mixed with chopped vegetables or fruits, providing a cool and tangy complement to spicy Indian dishes.",
+    description:
+      "A refreshing yogurt-based side dish seasoned with spices and often mixed with chopped vegetables or fruits, providing a cool and tangy complement to spicy Indian dishes.",
   },
 ];
 
@@ -85,7 +87,10 @@ function createListCard(product) {
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
-	  <p class="card-text">${product.description}</p>
+	 <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;  
+   overflow: hidden;">${product.description}</p></div>
 	</div>
   </div>
   </div> 

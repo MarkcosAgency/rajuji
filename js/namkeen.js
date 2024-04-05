@@ -30,7 +30,8 @@ const namkeenProducts = [
   {
     name: "CORNFLAKS MIXTURE",
     photo: "./img/namkeen/IMG_0367.jpg",
-    description: "A crunch of cornflakes with dry fruits making it a unique blend of crunch & health.",
+    description:
+      "A crunch of cornflakes with dry fruits making it a unique blend of crunch & health.",
   },
   {
     name: "PANCHRATAN",
@@ -50,7 +51,8 @@ const namkeenProducts = [
   {
     name: "SADA CHIPS",
     photo: "./img/namkeen/IMG_0399.jpg",
-    description: "A pure flavor of thinly sliced potatoes, lightly seasoned & perfectly crisp.",
+    description:
+      "A pure flavor of thinly sliced potatoes, lightly seasoned & perfectly crisp.",
   },
   {
     name: "CHILI POTATO CHIPS",
@@ -60,7 +62,8 @@ const namkeenProducts = [
   {
     name: "KABLI MIX",
     photo: "./img/namkeen/IMG_0401.jpg",
-    description: "Description of Product 3",
+    description:
+      "A popular snack mix originating from Afghanistan, consisting of a flavorful blend of roasted chickpeas, nuts, seeds, and spices, offering a crunchy and savory taste experience.",
   },
   {
     name: "DRYFRUIT DALMOTH",
@@ -85,7 +88,8 @@ const namkeenProducts = [
   {
     name: "ALL IN ONE",
     photo: "./img/namkeen/IMG_0403.jpg",
-    description: "A delicious & crunchy snack of all type of indian namkeens mixed together to give it a uniqueness",
+    description:
+      "A delicious & crunchy snack of all type of indian namkeens mixed together to give it a uniqueness",
   },
   {
     name: "MARWARI BHUJIA",
@@ -127,7 +131,11 @@ function createProductCard(product) {
 	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
-	  <p class="card-text">${product.description}</p>
+	  <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;">${product.description}</p>
+    </div>
 	</div>
   </div>
   </div> 

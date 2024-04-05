@@ -2,7 +2,8 @@ const bakeryCookieProductsLists = [
   {
     name: "JEERA TWIST KHARI",
     photo: "",
-    description: "Description of Product 1",
+    description:
+      "A savory Indian pastry made from puff pastry dough flavored with cumin seeds (jeera), offering a crispy texture and a delightful twist on traditional Khari biscuits.",
   },
   {
     name: "KAJU PISTA BITE",
@@ -47,7 +48,11 @@ function createListCard(product) {
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
-	  <p class="card-text">${product.description}</p>
+    <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;">${product.description}</p>
+    </div>
 	</div>
   </div>
   </div> 

@@ -20,7 +20,8 @@ const namkeenProductsList = [
   {
     name: "KHASTA CHANACHUR",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "A crispy and crunchy Bengali snack made from fried lentil or gram flour noodles, mixed with spices, nuts, dried fruits, and sometimes puffed rice, offering a flavorful and addictive munching experience.",
   },
 
   {
@@ -37,17 +38,20 @@ const namkeenProductsList = [
   {
     name: "PANCHRATAN",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "It is made of mixed flavor of sour and sweet potato sticks and dry fruits. You wouldn't want to stop eating it.",
   },
   {
     name: "KAJU DALMOTH",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "A savory Indian snack made from roasted cashews (kaju), lentil drops (dalmooth), and a blend of spices, offering a crunchy and flavorful treat often enjoyed with tea or as a crunchy topping for chaats and salads.",
   },
   {
     name: "BADAM DALMOTH",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "A crunchy and savory Indian snack made from roasted almonds (badam), lentil drops (dalmooth), and a blend of spices, offering a delightful combination of nuttiness and spice, commonly enjoyed as a tea-time snack or as a topping for chaats and salads.",
   },
   {
     name: "SADA CHIPS",
@@ -58,7 +62,8 @@ const namkeenProductsList = [
   {
     name: "CHILI POTATO CHIPS",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "Chili potato chips are a tasty snack featuring thin slices of potatoes that have been seasoned with a spicy chili flavor.",
   },
   {
     name: "KABLI MIX",
@@ -68,22 +73,26 @@ const namkeenProductsList = [
   {
     name: "DRYFRUIT DALMOTH",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      " A savory Indian snack made from a mixture of fried lentil or gram flour noodles, combined with various dry fruits such as raisins, cashews, almonds, and pistachios, along with a blend of spices, offering a crunchy texture and a sweet-savory flavor profile, commonly enjoyed as a tea-time snack or during festivities.",
   },
   {
     name: "SAHI DALMOTH",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "Is a popular north indian snack that originated in the state of uttar pradesh. It is a savory and crunchy mixture, often enjoyed as a tea-time snack.",
   },
   {
     name: "AMIR CHANACHUR",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      " A popular brand of spicy snack mix originating from Bangladesh, typically made from a combination of fried lentil or gram flour noodles, nuts, dried fruits, and a variety of spices, offering a crunchy and flavorful munching experience.",
   },
   {
     name: "TOK JHAL MISTI",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "Tok jhal misti chanachur is a popular bengali snack. This mixture combines spiciness, tanginess, and sweetness.",
   },
   {
     name: "ALL IN ONE",
@@ -94,32 +103,38 @@ const namkeenProductsList = [
   {
     name: "MARWARI BHUJIA",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "Is a flavorful indian snack hailing from the state of rajasthan . It's chana bhujiya.",
   },
   {
     name: "PAPDI BESAN",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "Crisp and flavorful savory snack perfect for munching on anytime.",
   },
   {
     name: "BHAVNAGRI",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "Experience the irresistible crunch and fiery flavor explosion of our Bhavnagari Bhujia, expertly crafted from Besan, spices, and love, meticulously fried to golden perfection for a spicy delight that dances on your palate.",
   },
   {
     name: "GANTHIA",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "Crispy and savory, this traditional Indian snack bursts with flavors and offers a delightful crunch.",
   },
   {
     name: "MASALA MURI",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "Embark on a flavor adventure with masala muri, where puffed rice is expertly tossed with a tantalizing blend of spices, herbs, and crunchy toppings, creating an irresistible snack that promises a burst of savory delight in every bite.",
   },
   {
     name: "KHOKA BHUJIA",
     photo: "",
-    description: "Description of Product 3",
+    description:
+      "A savory and crunchy Indian snack that will leave your taste buds satisfied.",
   },
 ];
 
@@ -129,7 +144,11 @@ function createListCard(product) {
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
-	  <p class="card-text">${product.description}</p>
+    <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;">${product.description}</p>
+    </div>
 	</div>
   </div>
   </div> 
