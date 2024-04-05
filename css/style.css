@@ -382,9 +382,16 @@ nav .nav-link {
     right: 15px; /* Adjust as needed */
     transform: translateY(-50%);
   }
-  /* .hero .web {
-    display: none;
-  } */
+  .hero .web {
+    height: 40dvh !important;
+  }
+
+  .sinceText {
+   width: 100% !important;
+   height: 100% !important;
+  }
+
+
   .hero .mobile {
     display: block;
   }
@@ -395,9 +402,9 @@ nav .nav-link {
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
   }
-  .banner-img {
+  /* .banner-img {
     width: 70%;
-  }
+  } */
   .banner-2 img {
     position: absolute;
     bottom: -5.5rem;
@@ -480,7 +487,7 @@ nav .nav-link {
 .testimonial {
   width: 100%;
   /* padding-top: 5rem; */
-  height: 50dvh;
+  /* height: 50dvh; */
   overflow: hidden;
   display: flex;
   justify-content: center;
