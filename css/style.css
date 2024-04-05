@@ -316,7 +316,7 @@ nav .nav-link {
 .hero .web {
   width: 100%;
   height: 70dvh !important;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .hero .mobile {
   display: none;

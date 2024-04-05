@@ -140,12 +140,12 @@ const seasonalProducts = [
   {
     name: "MILK GHEWAR BIG",
     photo: "./img/Rajuji Products/11.png",
-    description: "Description of Product 2",
+    description: "Made of pure milk, no additive no colour...its pure",
   },
   {
     name: "MILK GHEWAR SMALL",
     photo: "",
-    description: "Description of Product 3",
+    description: "Made of pure milk, no additive no colour...its pure",
   },
 
   {
@@ -161,7 +161,7 @@ const seasonalProducts = [
   {
     name: "LACHHA FENI",
     photo: "./img/Rajuji Products/12.png",
-    description: "Description of Product 3",
+    description: "A thin, sweet & vermicelli like noodles made of rice flour, sugar & spices",
   },
   {
     name: "MILK FENI",
@@ -227,7 +227,7 @@ const seasonalProducts = [
 function createProductCard(product) {
   return `
 	  <div class="col-md-6 col-lg-4 col-xl-3">
-	  <div class="card w-auto  bg-transparent text-dark" style="">
+	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
 	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>

@@ -26,7 +26,7 @@ const maidanamkeenProducts = [
   {
     name: "METHI SWALI",
     photo: "./img/namkeen/IMG_0365.jpg",
-    description: "A savory snack infused with the distinct flavors of fenugreek leaves & aromatic spices.",
+    description: "A savory snack infused with the distinct flavors of fenugreek leaves & aromatic spices.w",
   },
   {
     name: "LAMBA PAPDI",

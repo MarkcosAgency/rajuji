@@ -8,12 +8,12 @@ const chenaFancySweetProductsList = [
   {
     name: "ICE CREAM SANDESH",
     photo: "",
-    description: "Description of Product 1",
+    description: "A dessert that combines the rich creaminess of ice cream with the delicate sweetness of sandesh.",
   },
   {
     name: "KESAR SANDESH",
     photo: "",
-    description: "Description of Product 1",
+    description: "Kesar sandesh is a traditional indian sweet originating from the state of bengal.",
   },
   {
     name: "CHAM CHAM MALAI",
