@@ -313,11 +313,7 @@ nav .nav-link {
 /* .banner-text-2 {
 } */
 
-.hero .web {
-  width: 100%;
-  height: 75dvh !important;
-  /* overflow: hidden; */
-}
+
 .hero .mobile {
   display: none;
 }
@@ -333,11 +329,6 @@ nav .nav-link {
     flex-wrap: nowrap;
   }
 
-  .hero .web {
-  width: 100%;
-  height: 70dvh !important;
-  /* overflow: hidden; */
-}
 
   /* Align burger icon to the header */
   .navbar-toggler {
@@ -383,11 +374,7 @@ nav .nav-link {
   .navbar-nav {
     flex-wrap: nowrap;
   }
-.hero .web {
-  width: 100%;
-  height: 40dvh !important;
-  /* overflow: hidden; */
-}
+
   .freshSnacksContainer {
     margin-top: -10%;
   }
@@ -399,9 +386,7 @@ nav .nav-link {
     right: 15px; /* Adjust as needed */
     transform: translateY(-50%);
   }
-  .hero .web {
-    height: 40vh !important;
-  }
+
 
   .sinceText {
     width: 100% !important;
