@@ -315,7 +315,7 @@ nav .nav-link {
 
 .hero .web {
   width: 100%;
-  height: 70dvh !important;
+  height: 70vh !important;
   /* overflow: hidden; */
 }
 .hero .mobile {
@@ -390,7 +390,7 @@ nav .nav-link {
     transform: translateY(-50%);
   }
   .hero .web {
-    height: 40dvh !important;
+    height: 40vh !important;
   }
 
   .sinceText {
