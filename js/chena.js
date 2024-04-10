@@ -3,19 +3,19 @@
 const chenaSweetProducts = [
   {
     name: "ROSOGOLLA",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju masthead .png",
+    photo: "Kaju masthead .png",
     description:
       "A delicate and melt-in-your-mouth texture. Known for its mildly sweet & milky flavor.",
   },
   {
     name: "RAJ BHOG",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "Kaju Parallax.png",
     description:
       "Soft and spongy texture filled with lite keasar and pista. Soked in sugar syrup.",
   },
   {
     name: "GULAB JAMUN SPL ",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "Kaju Parallax.png",
     description:
       "Deep-fried milk-based dough balls soaked in fragrant sugar syrup.",
   },
@@ -38,7 +38,7 @@ const chenaSweetProducts = [
   },
   {
     name: "MILK CAKE",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "Kaju Parallax.png",
     description:
       "Made from milk & sugar. It has a crumbly yet moist texture with a rich milky flavor.",
   },
@@ -49,7 +49,7 @@ const chenaSweetProducts = [
   },
   {
     name: "KALAKAND",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "Kaju Parallax.png",
     description:
       "Renowned for its grainy texture and rich, milky flavor. It has a perfect balance of sweetness.",
   },
@@ -68,7 +68,7 @@ function createProductCard(product) {
   return `
 	  <div class="col-md-6 col-lg-4 col-xl-3">
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
-	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
+	<img src='./img/updatedimages/${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
 	  <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;

@@ -20,7 +20,7 @@ function createProductCard(product) {
     <div class="col-md-6 col-lg-4 col-xl-3">
     <div class="rounded sweets-card">
         <div class="">
-            <img src="${product.photo}"
+            <img src="./img/updatedimages/${product.photo}"
                 class="img-fluid w-100 rounded-top" alt=${product.name} />
         </div>
 

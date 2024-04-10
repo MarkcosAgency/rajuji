@@ -2,18 +2,18 @@
 const namkeenProducts = [
   {
     name: "BHUJIA",
-    photo: "./img/namkeen/2-2-500x500.jpg",
+    photo: "bhujia 1.png",
     description:
       "The flavorful & satisfying taste makes it an irresistible choice for a spicy treat",
   },
   {
     name: "JHAL CHANACHUR",
-    photo: "./img/namkeen/3-1.jpg",
+    photo: "3-1.jpg",
     description: "A zesty & spicy snack for all spicy lovers.",
   },
   {
     name: "KHATTA MITHA",
-    photo: "./img/namkeen/IMG_0353.jpg",
+    photo: "IMG_0353.jpg",
     description: "A crispy snack prepared using sweet and sour.",
   },
   {
@@ -24,12 +24,12 @@ const namkeenProducts = [
 
   {
     name: "MOONG DAL",
-    photo: "./img/namkeen/IMG_0365.jpg",
+    photo: "IMG_0365.jpg",
     description: "Fried dal for people who loves sober test.",
   },
   {
     name: "CORNFLAKS MIXTURE",
-    photo: "./img/namkeen/IMG_0367.jpg",
+    photo: "IMG_0367.jpg",
     description:
       "A crunch of cornflakes with dry fruits making it a unique blend of crunch & health.",
   },
@@ -50,7 +50,7 @@ const namkeenProducts = [
   },
   {
     name: "SADA CHIPS",
-    photo: "./img/namkeen/IMG_0399.jpg",
+    photo: "sada chips 1.png",
     description:
       "A pure flavor of thinly sliced potatoes, lightly seasoned & perfectly crisp.",
   },
@@ -61,7 +61,7 @@ const namkeenProducts = [
   },
   {
     name: "KABLI MIX",
-    photo: "./img/namkeen/IMG_0401.jpg",
+    photo: "IMG_0401.jpg",
     description:
       "A popular snack mix originating from Afghanistan, consisting of a flavorful blend of roasted chickpeas, nuts, seeds, and spices, offering a crunchy and savory taste experience.",
   },
@@ -87,7 +87,7 @@ const namkeenProducts = [
   },
   {
     name: "ALL IN ONE",
-    photo: "./img/updatedimages/All in one.png",
+    photo: "All in one.png",
     description:
       "A delicious & crunchy snack of all type of indian namkeens mixed together to give it a uniqueness",
   },
@@ -128,7 +128,7 @@ function createProductCard(product) {
   return `
 	  <div class="col-md-6 col-lg-4 col-xl-3 ">
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
-	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
+	<img src='./img/updatedimages/${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
 	  <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;

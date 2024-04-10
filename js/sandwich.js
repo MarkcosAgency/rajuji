@@ -18,12 +18,12 @@ const sandwichProducts = [
 	},
 	{
 		name: "VEG CHEESE BURGER",
-		photo: "./img/Rajuji Products/12.png",
+		photo: "12.png",
 		description: "A symphony of flavors featuring a savory vegetable patty with melted cheese.",
 	},
 	{
 		name: "VEG PIZZA",
-		photo: "./img/Rajuji Products/13.png",
+		photo: "13.png",
 		description: "Hand made base of our veg pizza with fresh tomato, capscicum and cheese.",
 	}
 ];
@@ -33,7 +33,7 @@ function createProductCard(product) {
 	return `
 	  <div class="col-md-6 col-lg-4 col-xl-3">
 	  <div class="card w-auto  bg-transparent text-dark" style="">
-	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
+	<img src='./img/updatedimages/${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
 	  <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;

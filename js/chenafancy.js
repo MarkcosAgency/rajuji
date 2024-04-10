@@ -3,7 +3,7 @@
 const chenaFancySweetProducts = [
   {
     name: "GULAB PATTI SANDESH",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju masthead .png",
+    photo: "Kaju masthead .png",
     description:
       "A delightful fusion of traditional sandesh with rose-infused flavors.",
   },
@@ -59,7 +59,7 @@ const chenaFancySweetProducts = [
   },
   {
     name: "RASMALAI",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "Kaju Parallax.png",
     description: "A soft and delicate spongy rosgolla dipped in thickened kesar pista milk.",
   },
   {
@@ -74,12 +74,12 @@ const chenaFancySweetProducts = [
   },
   {
     name: "KESARIA JELEBI",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "Kaju Parallax.png",
     description: "Jalebi soaked in delectable sugar syrup- perfect to satiate your cravings.",
   },
   {
     name: "IMERTI",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "Kaju Parallax.png",
     description: "Is a classic and indulgent indian sweet that combines the iconic spiral shape of jalebi with the rich and aromatic flavor of desi ghee. Served in a circular arrangement,. Dipped in flavour syrup.",
   },
 ];
@@ -89,7 +89,7 @@ function createProductCard(product) {
   return `
 	  <div class="col-md-6 col-lg-4 col-xl-3 ">
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
-	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
+	<img src='./img/updatedimages/${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
     <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;

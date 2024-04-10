@@ -2,19 +2,19 @@
 const maidanamkeenProducts = [
   {
     name: "MINI KACHORI",
-    photo: "./img/namkeen/2-2-500x500.jpg",
+    photo: "2-2-500x500.jpg",
     description:
       "A deep-fried pastry filled with a savory stuffing, known for its crispy outer shell & flavorful filling.",
   },
   {
     name: "MINI SINGHARA",
-    photo: "./img/namkeen/3-1.jpg",
+    photo: "3-1.jpg",
     description:
       "Mini sized samosa with dry aromatic filling best for your snack time.",
   },
   {
     name: "JAWA NAMKIN",
-    photo: "./img/namkeen/IMG_0353.jpg",
+    photo: "IMG_0353.jpg",
     description: "India’s favourite salty tea time snack.",
   },
   {
@@ -25,7 +25,7 @@ const maidanamkeenProducts = [
 
   {
     name: "METHI SWALI",
-    photo: "./img/namkeen/IMG_0365.jpg",
+    photo: "IMG_0365.jpg",
     description: "A savory snack infused with the distinct flavors of fenugreek leaves & aromatic spices.w",
   },
   {
@@ -41,7 +41,7 @@ function createProductCard(product) {
   return `
 	  <div class="col-md-6 col-lg-4 col-xl-3 ">
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
-	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
+	<img src='./img/updatedimages/${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
 	  <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;

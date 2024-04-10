@@ -3,12 +3,12 @@
 const sweetProducts = [
   {
     name: "SINGHARA BIKANERI",
-    photo: "./img/updatedimages/SINGHARA BIKANERI 1.png",
+    photo: "SINGHARA BIKANERI 1.png",
     description: "A crispy and satisfying snack perfect for any occasion.",
   },
   {
     name: "KHASTA KACHORI",
-    photo: "./img/Rajuji Products/10.png",
+    photo: "10.png",
     description: "Golden fried delights filled with savory spiced lentils.",
   },
   {
@@ -19,7 +19,7 @@ const sweetProducts = [
   },
   {
     name: "DHOKLA",
-    photo: "./img/Rajuji Products/12.png",
+    photo: "12.png",
     description:
       "A harmonious blend of fermented goodness, offering a taste of authentic indian flavors in every delightful bite. Served with tamarind & green chatni.",
   },
@@ -42,7 +42,7 @@ function createProductCard(product) {
   return `
     <div class="col-md-6 col-lg-4 col-xl-3">
     <div class="card w-auto  bg-transparent text-dark h-100" style="">
-  <img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
+  <img src='./img/updatedimages/${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
   <div class="card-body text-start">
     <h5 class="card-title ">${product.name}</h5>
     <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;

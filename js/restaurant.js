@@ -2,7 +2,7 @@
 const restaurantProducts = [
   {
     name: "CHOLA BHATURA",
-    photo: "./img/Rajuji Products/13.png",
+    photo: "13.png",
     description:
       " A spicy chickpea curry paired with fluffy, deep-fried bread, bursting with flavors of North India.",
   },
@@ -13,7 +13,7 @@ const restaurantProducts = [
   },
   {
     name: "SABJI KHASTA  KACHORI",
-    photo: "./img/Rajuji Products/13.png",
+    photo: "13.png",
     description:
       " Crispy fried pastry filled with spiced vegetable mixture, a flavorful Indian snack.",
   },
@@ -85,7 +85,7 @@ function createProductCard(product) {
   return `
 	  <div class="col-md-6 col-lg-4 col-xl-3">
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
-	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
+	<img src='./img/updatedimages/${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
     <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;

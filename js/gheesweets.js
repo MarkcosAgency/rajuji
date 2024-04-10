@@ -3,7 +3,7 @@
 const gheeSweetProducts = [
   {
     name: "SOAN PAPDI ELAICHI",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju masthead .png",
+    photo: "Kaju masthead .png",
     description:
       "Is a popular indian sweet that is known for its flaky and melt-in-the-mouth texture and made with deshi ghee. It likely emphasizes the traditional or authentic version of this sweet.",
   },
@@ -14,18 +14,18 @@ const gheeSweetProducts = [
   },
   {
     name: "LADDU KESARIA",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "Kaju Parallax.png",
     description: "Kesaria laddoo made out of love.",
   },
   {
     name: "LADDU DESHI",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "Kaju Parallax.png",
     description:
       " Also known as motichoor laddu, is a popular indian sweet. Made with pure desi ghee.",
   },
   {
     name: "LADDU KANPURI",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "Kaju Parallax.png",
     description:
       "A delectable traditional sweet that will satisfy your sweet tootH",
   },
@@ -37,7 +37,7 @@ const gheeSweetProducts = [
   },
   {
     name: "MOTI PAK",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "Kaju Parallax.png",
     description: "A sumptuous & traditional indian sweet, originating from the vibrant state of gujarat made of desi ghee.",
   },
   {
@@ -59,7 +59,7 @@ const gheeSweetProducts = [
   },
   {
     name: "BESAN LADDU",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "Kaju Parallax.png",
     description: "A rich & aromatic flavor, with a crumbly and melt-in-your-mouth texture.",
   },
   {
@@ -87,7 +87,7 @@ function createProductCard(product) {
   return `
 	  <div class="col-md-6 col-lg-4 col-xl-3 ">
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
-	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
+	<img src='./img/updatedimages/${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
     <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
