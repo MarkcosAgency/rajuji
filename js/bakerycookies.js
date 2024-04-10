@@ -20,7 +20,7 @@ const bakeryCookieProducts = [
     description: "Description of Product 1",
   },
   {
-    name: "BADAM BAITE",
+    name: "BADAM BITE",
     photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
     description: "Description of Product 1",
   },
@@ -29,14 +29,10 @@ const bakeryCookieProducts = [
     photo: "./img/Rajuji_Al_Prdt_img/Kaju masthead .png",
     description: "Description of Product 1",
   },
-  {
-    name: "AJWAINE BITE",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
-    description: "Description of Product 1",
-  },
+
   {
     name: "ALMOND STICK",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju masthead .png",
+    photo: "./img/updatedImg/AJWAINE BITE 1.png",
     description: "Description of Product 1",
   },
 ];

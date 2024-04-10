@@ -85,8 +85,8 @@ const bakeryCookies = [
       "Small, bite-sized snacks made with a variety of dried fruits.",
   },
   {
-    name: "BADAM BAITE",
-    photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
+    name: "BADAM BITE",
+    photo: "./img/updatedimages/Badam Bite_1.png",
     description:
       "Known for its rich and nutty flavor. It is enjoyed as a dessert or snack.",
   },
@@ -97,14 +97,14 @@ const bakeryCookies = [
   },
   {
     name: "AJWAINE BITE",
-    photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
-    description:
-      "A flavorful & aromatic snack featuring the distinctive taste of ajwain.",
+    photo: "./img/updatedImages/Ajwain BIte.png",
+    description: "Description of Product 1",
   },
   {
     name: "ALMOND STICK",
     photo: "./img/logo/Logo_BhikhaaramChandmal_Rajuji.png",
-    description: "A delectable treat showcasing the natural goodness & nutty flavor of almonds in a slender & convenient form.",
+    description:
+      "A delectable treat showcasing the natural goodness & nutty flavor of almonds in a slender & convenient form.",
   },
 ];
 
@@ -113,13 +113,16 @@ function createProductCard(product) {
   return `
 	  <div class="col-md-6 col-lg-4 col-xl-3">
 	  <div class="card w-auto  bg-transparent text-dark h-100" style="">
-	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain">
+	<img src='${product.photo}' class="card-img-top" alt="..." style="object-fit:contain;aspect-ratio:1">
 	<div class="card-body text-start">
 	  <h5 class="card-title ">${product.name}</h5>
-	  <div style="width:"100%"> <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
+	  <div style="width:"100%"> 
+    <p class="card-text" style="-webkit-line-clamp: 3; display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;  
-    overflow: hidden;">${product.description}</p>
+    overflow: hidden;">
+    ${product.description}
+    </p>
     </div>
 	</div>
   </div>

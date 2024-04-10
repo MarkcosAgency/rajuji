@@ -3,7 +3,7 @@
 const sweetProducts = [
   {
     name: "SINGHARA BIKANERI",
-    photo: "./img/Rajuji Products/10.png",
+    photo: "./img/updatedimages/SINGHARA BIKANERI 1.png",
     description: "A crispy and satisfying snack perfect for any occasion.",
   },
   {
@@ -32,7 +32,8 @@ const sweetProducts = [
   {
     name: "KHANDVI",
     photo: "",
-    description: "A rolled-up marvel of gram flour perfection. Silky smooth, adorned with mustard seeds, green chillies and coconut, it's a gujarati specialty with its delicate texture & zesty flavor.",
+    description:
+      "A rolled-up marvel of gram flour perfection. Silky smooth, adorned with mustard seeds, green chillies and coconut, it's a gujarati specialty with its delicate texture & zesty flavor.",
   },
 ];
 

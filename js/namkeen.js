@@ -87,7 +87,7 @@ const namkeenProducts = [
   },
   {
     name: "ALL IN ONE",
-    photo: "./img/namkeen/IMG_0403.jpg",
+    photo: "./img/updatedimages/All in one.png",
     description:
       "A delicious & crunchy snack of all type of indian namkeens mixed together to give it a uniqueness",
   },

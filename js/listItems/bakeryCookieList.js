@@ -21,8 +21,8 @@ const bakeryCookieProductsLists = [
     description: "Description of Product 1",
   },
   {
-    name: "BADAM BAITE",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    name: "BADAM BITE",
+    photo: "./img/updatedimages/Badam Bite_1.png",
     description: "Description of Product 1",
   },
   {
