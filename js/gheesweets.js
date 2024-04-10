@@ -3,7 +3,7 @@
 const gheeSweetProducts = [
   {
     name: "SOAN PAPDI ELAICHI",
-    photo: "Kaju masthead .png",
+    photo: "Sonan papdi_1.png",
     description:
       "Is a popular indian sweet that is known for its flaky and melt-in-the-mouth texture and made with deshi ghee. It likely emphasizes the traditional or authentic version of this sweet.",
   },
@@ -14,18 +14,18 @@ const gheeSweetProducts = [
   },
   {
     name: "LADDU KESARIA",
-    photo: "Kaju Parallax.png",
+    photo: "LADDU KESARIA 1.png",
     description: "Kesaria laddoo made out of love.",
   },
   {
     name: "LADDU DESHI",
-    photo: "Kaju Parallax.png",
+    photo: "LADDU DESHI 2.png",
     description:
       " Also known as motichoor laddu, is a popular indian sweet. Made with pure desi ghee.",
   },
   {
     name: "LADDU KANPURI",
-    photo: "Kaju Parallax.png",
+    photo: "LADDU KANPURI 1.png",
     description:
       "A delectable traditional sweet that will satisfy your sweet tootH",
   },
@@ -37,7 +37,7 @@ const gheeSweetProducts = [
   },
   {
     name: "MOTI PAK",
-    photo: "Kaju Parallax.png",
+    photo: "MOTI PAK 3.png",
     description: "A sumptuous & traditional indian sweet, originating from the vibrant state of gujarat made of desi ghee.",
   },
   {
@@ -59,7 +59,7 @@ const gheeSweetProducts = [
   },
   {
     name: "BESAN LADDU",
-    photo: "Kaju Parallax.png",
+    photo: "BESAN LADDU 1.png",
     description: "A rich & aromatic flavor, with a crumbly and melt-in-your-mouth texture.",
   },
   {

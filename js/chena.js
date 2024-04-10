@@ -3,19 +3,19 @@
 const chenaSweetProducts = [
   {
     name: "ROSOGOLLA",
-    photo: "Kaju masthead .png",
+    photo: "Rossogolla 1.png",
     description:
       "A delicate and melt-in-your-mouth texture. Known for its mildly sweet & milky flavor.",
   },
   {
     name: "RAJ BHOG",
-    photo: "Kaju Parallax.png",
+    photo: "RAJ BHOG 1.png",
     description:
       "Soft and spongy texture filled with lite keasar and pista. Soked in sugar syrup.",
   },
   {
     name: "GULAB JAMUN SPL ",
-    photo: "Kaju Parallax.png",
+    photo: "GULAB JAMUN SPL_1.png",
     description:
       "Deep-fried milk-based dough balls soaked in fragrant sugar syrup.",
   },
@@ -38,7 +38,7 @@ const chenaSweetProducts = [
   },
   {
     name: "MILK CAKE",
-    photo: "Kaju Parallax.png",
+    photo: "MILK CAKE 4.png",
     description:
       "Made from milk & sugar. It has a crumbly yet moist texture with a rich milky flavor.",
   },
@@ -49,7 +49,7 @@ const chenaSweetProducts = [
   },
   {
     name: "KALAKAND",
-    photo: "Kaju Parallax.png",
+    photo: "KALAKAND.png",
     description:
       "Renowned for its grainy texture and rich, milky flavor. It has a perfect balance of sweetness.",
   },

@@ -2,13 +2,13 @@
 const maidanamkeenProducts = [
   {
     name: "MINI KACHORI",
-    photo: "2-2-500x500.jpg",
+    photo: "mini Kachori.png",
     description:
       "A deep-fried pastry filled with a savory stuffing, known for its crispy outer shell & flavorful filling.",
   },
   {
     name: "MINI SINGHARA",
-    photo: "3-1.jpg",
+    photo: "Mini  Singhara.png",
     description:
       "Mini sized samosa with dry aromatic filling best for your snack time.",
   },
@@ -25,7 +25,7 @@ const maidanamkeenProducts = [
 
   {
     name: "METHI SWALI",
-    photo: "IMG_0365.jpg",
+    photo: "Methi Swali.png",
     description: "A savory snack infused with the distinct flavors of fenugreek leaves & aromatic spices.w",
   },
   {

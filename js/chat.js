@@ -3,7 +3,7 @@
 const chatProducts = [
   {
     name: "RAJ KACHORI",
-    photo: "10.png",
+    photo: "RAJ KACHORI 3.png",
     description:
       "King sized Kachori stuffed with sprouts, vegetables,crispy pakoris, yogurt, and topped with spices, chutneys, crispy bhujia.1",
   },
@@ -15,7 +15,7 @@ const chatProducts = [
   },
   {
     name: "DAHI VADA",
-    photo: "11.png",
+    photo: "Dahi Vada_2.png",
     description:
       "Soft lentil flat dumplings soaked in creamy yogurt, garnished with aromatic spices.",
   },

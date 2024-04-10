@@ -8,7 +8,7 @@ const sweetProducts = [
   },
   {
     name: "KHASTA KACHORI",
-    photo: "10.png",
+    photo: "KHASTA KACHORI 1.png",
     description: "Golden fried delights filled with savory spiced lentils.",
   },
   {
@@ -19,7 +19,7 @@ const sweetProducts = [
   },
   {
     name: "DHOKLA",
-    photo: "12.png",
+    photo: "DHOKLA 1.png",
     description:
       "A harmonious blend of fermented goodness, offering a taste of authentic indian flavors in every delightful bite. Served with tamarind & green chatni.",
   },

@@ -6,7 +6,7 @@ const bakeryCookies = [
   },
   {
     name: "KAJU PISTA BITE",
-    photo: "Logo_BhikhaaramChandmal_Rajuji.png",
+    photo: "Kaju Pista Bite.png",
     description:
       "A handmade cookie loaded with kaju & pistachios made with lots of love.",
   },
@@ -29,7 +29,7 @@ const bakeryCookies = [
   },
   {
     name: "CHOCO BITe",
-    photo: "Logo_BhikhaaramChandmal_Rajuji.png",
+    photo: "Choco Bite.png",
     description: "Small, bite-sized treats made primarily with chocolate.",
   },
   {

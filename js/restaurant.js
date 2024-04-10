@@ -2,7 +2,7 @@
 const restaurantProducts = [
   {
     name: "CHOLA BHATURA",
-    photo: "13.png",
+    photo: "CHOLA BHATURA2.png",
     description:
       " A spicy chickpea curry paired with fluffy, deep-fried bread, bursting with flavors of North India.",
   },

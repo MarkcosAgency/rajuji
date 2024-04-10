@@ -23,7 +23,7 @@ const sandwichProducts = [
 	},
 	{
 		name: "VEG PIZZA",
-		photo: "13.png",
+		photo: "VEG PIZZA 3.png",
 		description: "Hand made base of our veg pizza with fresh tomato, capscicum and cheese.",
 	}
 ];

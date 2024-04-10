@@ -8,12 +8,12 @@ const namkeenProducts = [
   },
   {
     name: "JHAL CHANACHUR",
-    photo: "3-1.jpg",
+    photo: "Jhal Chanachur.png",
     description: "A zesty & spicy snack for all spicy lovers.",
   },
   {
     name: "KHATTA MITHA",
-    photo: "IMG_0353.jpg",
+    photo: "Khatta Meetha.png",
     description: "A crispy snack prepared using sweet and sour.",
   },
   {
@@ -24,7 +24,7 @@ const namkeenProducts = [
 
   {
     name: "MOONG DAL",
-    photo: "IMG_0365.jpg",
+    photo: "Moong Dal.png",
     description: "Fried dal for people who loves sober test.",
   },
   {

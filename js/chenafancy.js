@@ -3,7 +3,7 @@
 const chenaFancySweetProducts = [
   {
     name: "GULAB PATTI SANDESH",
-    photo: "Kaju masthead .png",
+    photo: "GULAB PATTI SANDESH 1.png",
     description:
       "A delightful fusion of traditional sandesh with rose-infused flavors.",
   },
@@ -39,7 +39,7 @@ const chenaFancySweetProducts = [
   },
   {
     name: "CHAM CHAM KESAR",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "CHAM CHAM KESAR.png",
     description: "Is a delicious indian sweet that is a variation of the traditional cham cham.these treats are known for their vibrant color, aromatic saffron flavor, and a delightful texture.",
   },
   {
@@ -49,7 +49,7 @@ const chenaFancySweetProducts = [
   },
   {
     name: "RABRI MALPUA",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "RABRI MALPUA 2.png",
     description: "Is a delicious indian dessert that combines two popular sweets: rabri and malpua.the malpua pancakes are served with a generous topping of rabri, creating a delightful combination of textures and flavors.",
   },
   {
@@ -59,7 +59,7 @@ const chenaFancySweetProducts = [
   },
   {
     name: "RASMALAI",
-    photo: "Kaju Parallax.png",
+    photo: "RASMALAI 3.png",
     description: "A soft and delicate spongy rosgolla dipped in thickened kesar pista milk.",
   },
   {
@@ -74,12 +74,12 @@ const chenaFancySweetProducts = [
   },
   {
     name: "KESARIA JELEBI",
-    photo: "Kaju Parallax.png",
+    photo: "KESARIA JELEBI 1.png",
     description: "Jalebi soaked in delectable sugar syrup- perfect to satiate your cravings.",
   },
   {
     name: "IMERTI",
-    photo: "Kaju Parallax.png",
+    photo: "IMERTI 2.png",
     description: "Is a classic and indulgent indian sweet that combines the iconic spiral shape of jalebi with the rich and aromatic flavor of desi ghee. Served in a circular arrangement,. Dipped in flavour syrup.",
   },
 ];
