@@ -12,7 +12,7 @@ const bakeryCookies = [
   },
   {
     name: "ATTA BISCUIT",
-    photo: "Logo_BhikhaaramChandmal_Rajuji.png",
+    photo: "Atta Bite.png",
     description: "A rajasthani handmade cookies made with pure ghee & atta.",
   },
   {

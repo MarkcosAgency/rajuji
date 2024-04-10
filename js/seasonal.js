@@ -2,7 +2,7 @@
 const seasonalProducts = [
   {
     name: "DESHI GHEWAR",
-    photo: "10.png",
+    photo: "Ghewar 1.png",
     description:
       "A traditional Indian sweet delicacy originating from Rajasthan, characterized by its intricate and porous disc-shaped structure made from wheat flour and soaked in sugar syrup, often garnished with nuts and edible silver foil.",
   },
@@ -13,7 +13,7 @@ const seasonalProducts = [
   },
   {
     name: "MILK GHEWAR BIG",
-    photo: "11.png",
+    photo: "Ghewar 2.png",
     description: "Made of pure milk, no additive no colour...its pure",
   },
   {
@@ -42,7 +42,8 @@ const seasonalProducts = [
   {
     name: "MILK FENI",
     photo: "12.png",
-    description: "Unlike traditional Feni, which is distilled from cashew apples or coconut sap, Milk Feni is made by distilling cashew feni with milk. This process gives it a smoother and creamier texture compared to regular Feni.",
+    description:
+      "Unlike traditional Feni, which is distilled from cashew apples or coconut sap, Milk Feni is made by distilling cashew feni with milk. This process gives it a smoother and creamier texture compared to regular Feni.",
   },
   {
     name: "GAJAK",
