@@ -7,6 +7,12 @@ const restaurantProductsList = [
   },
 
   {
+    name: "SABJI KHASTA  KACHORI",
+    photo: "",
+    description:
+      " Crispy fried pastry filled with spiced vegetable mixture, a flavorful Indian snack.",
+  },
+  {
     name: "IDLY SAMBAR CHATNI",
     photo: "",
     description:
