@@ -12,11 +12,7 @@ const maidanamkeenProducts = [
     description:
       "Mini sized samosa with dry aromatic filling best for your snack time.",
   },
-  {
-    name: "JAWA NAMKIN",
-    photo: "IMG_0353.jpg",
-    description: "India’s favourite salty tea time snack.",
-  },
+  
   {
     name: "SADA SWALI",
     photo: "",

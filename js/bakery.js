@@ -1,7 +1,7 @@
 const bakeryCookies = [
   {
     name: "JEERA TWIST KHARI",
-    photo: "Logo_BhikhaaramChandmal_Rajuji.png",
+    photo: "",
     description: "A savory & flaky pastry flavored with cumin seeds.",
   },
   {

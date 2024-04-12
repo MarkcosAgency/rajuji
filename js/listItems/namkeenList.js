@@ -31,7 +31,7 @@ const namkeenProductsList = [
   },
   {
     name: "CORNFLAKS MIXTURE",
-    photo: "./img/namkeen/IMG_0367.jpg",
+    photo: "",
     description:
       "A crunch of cornflakes with dry fruits making it a unique blend of crunch & health.",
   },
@@ -67,7 +67,7 @@ const namkeenProductsList = [
   },
   {
     name: "KABLI MIX",
-    photo: "./img/namkeen/IMG_0401.jpg",
+    photo: "",
     description: "Description of Product 3",
   },
   {

@@ -29,7 +29,7 @@ const namkeenProducts = [
   },
   {
     name: "CORNFLAKS MIXTURE",
-    photo: "IMG_0367.jpg",
+    photo: "",
     description:
       "A crunch of cornflakes with dry fruits making it a unique blend of crunch & health.",
   },
@@ -61,7 +61,7 @@ const namkeenProducts = [
   },
   {
     name: "KABLI MIX",
-    photo: "IMG_0401.jpg",
+    photo: "",
     description:
       "A popular snack mix originating from Afghanistan, consisting of a flavorful blend of roasted chickpeas, nuts, seeds, and spices, offering a crunchy and savory taste experience.",
   },

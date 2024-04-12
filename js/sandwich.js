@@ -18,7 +18,7 @@ const sandwichProducts = [
 	},
 	{
 		name: "VEG CHEESE BURGER",
-		photo: "12.png",
+		photo: "",
 		description: "A symphony of flavors featuring a savory vegetable patty with melted cheese.",
 	},
 	{

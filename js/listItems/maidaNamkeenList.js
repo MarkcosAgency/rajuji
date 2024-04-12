@@ -33,6 +33,11 @@ const maidanamkeenProductsList = [
     description:
       "Is a popular indian snack that belongs to the category of crispy and savory foods. It is propular gujraji snack made by handmade. Served with raw papaya bhuji.",
   },
+  {
+    name: "JAWA NAMKIN",
+    photo: "",
+    description: "India’s favourite salty tea time snack.",
+  },
 ];
 
 function createListCard(product) {

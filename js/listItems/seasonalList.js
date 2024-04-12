@@ -28,17 +28,17 @@ const seasonalProductsList = [
   },
   {
     name: "DESHI FENI",
-    photo: "./img/Rajuji Products/12.png",
+    photo: "",
     description: "Description of Product 3",
   },
   {
     name: "LACHHA FENI",
-    photo: "./img/Rajuji Products/12.png",
+    photo: "",
     description: "Description of Product 3",
   },
   {
     name: "MILK FENI",
-    photo: "./img/Rajuji Products/12.png",
+    photo: "",
     description: "Description of Product 3",
   },
   {

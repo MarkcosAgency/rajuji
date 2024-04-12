@@ -29,19 +29,19 @@ const seasonalProducts = [
   },
   {
     name: "DESHI FENI",
-    photo: "12.png",
+    photo: "",
     description:
       " Feni is made from cashew apples or coconut sap and has a distinct flavor profile. ",
   },
   {
     name: "LACHHA FENI",
-    photo: "12.png",
+    photo: "",
     description:
       "A thin, sweet & vermicelli like noodles made of rice flour, sugar & spices",
   },
   {
     name: "MILK FENI",
-    photo: "12.png",
+    photo: "",
     description:
       "Unlike traditional Feni, which is distilled from cashew apples or coconut sap, Milk Feni is made by distilling cashew feni with milk. This process gives it a smoother and creamier texture compared to regular Feni.",
   },

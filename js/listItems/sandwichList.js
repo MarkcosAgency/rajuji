@@ -13,13 +13,13 @@ const sandwichProductsList = [
     description: "An ooey-gooey sandwich filled with tasty veggies and melty cheese.",
   },
   {
-    name: "COLE SLOW SANDWICH",
+    name: "CHOLE SLOW SANDWICH",
     photo: "",
     description: "A delightful ensemble of fresh vegetables, layered with zesty spreads, nestled between soft slices of bread.",
   },
   {
     name: "VEG CHEESE BURGER",
-    photo: "./img/Rajuji Products/12.png",
+    photo: "",
     description:
       "A symphony of flavors featuring a savory vegetable patty with melted cheese.",
   },

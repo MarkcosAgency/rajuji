@@ -31,7 +31,7 @@ const chenaFancySweetProductsList = [
   },
   {
     name: "CHAM CHAM FRUIT MALAI ",
-    photo: "./img/Rajuji_Al_Prdt_img/Kaju Parallax.png",
+    photo: "",
     description:
       " Malai cham cham is a delicious indian sweet. These milk-based sweets are typically flavored with cardamom and adorned with a layer of malai.",
   },
